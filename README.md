@@ -74,7 +74,11 @@ https://user-images.githubusercontent.com/81498189/113149001-80819a80-926d-11eb-
 
 ![bg_brand_info](https://user-images.githubusercontent.com/81498189/113159135-559c4400-9277-11eb-8770-78038f1080ca.jpg)
 
-![brand_logo](https://user-images.githubusercontent.com/81498189/113159147-57660780-9277-11eb-8dfa-04d39b726730.png)
+![brand_logo](https://user-images.githubusercontent.com/81498189/113181127-6905da00-928c-11eb-8955-5d0a3d18d6df.png)
+![event_bg_line](https://user-images.githubusercontent.com/81498189/113181134-699e7080-928c-11eb-9f08-174fdcaad7f0.png)
+![line2](https://user-images.githubusercontent.com/81498189/113181137-6a370700-928c-11eb-8e91-81ef80416809.png)
+![m_event_bg](https://user-images.githubusercontent.com/81498189/113181142-6a370700-928c-11eb-9a53-f88873b333d9.png)
+![side_txt](https://user-images.githubusercontent.com/81498189/113181143-6acf9d80-928c-11eb-91f5-665bba5ee3e0.png)
 
 ![best5](https://user-images.githubusercontent.com/81498189/113159150-57fe9e00-9277-11eb-969a-ed5169cd05d4.jpg)
 
@@ -86,9 +90,7 @@ https://user-images.githubusercontent.com/81498189/113149001-80819a80-926d-11eb-
 
 ![event_bg](https://user-images.githubusercontent.com/81498189/113159236-6947aa80-9277-11eb-8d5f-c04d98c9a4ae.jpg)
 
-![event_bg_line](https://user-images.githubusercontent.com/81498189/113159239-6a78d780-9277-11eb-819b-d8e8fffe58f9.png)
 
-![m_event_bg](https://user-images.githubusercontent.com/81498189/113159332-7e243e00-9277-11eb-8469-4c6eb7925c64.png)
 
 ![icon_search](https://user-images.githubusercontent.com/81498189/113159340-7ebcd480-9277-11eb-91d3-14a65a4a02e7.png)
 
@@ -96,9 +98,6 @@ https://user-images.githubusercontent.com/81498189/113149001-80819a80-926d-11eb-
 
 ![line1](https://user-images.githubusercontent.com/81498189/113173009-f42ea200-9283-11eb-9ded-a4d1942948b9.png)
 
-![line2](https://user-images.githubusercontent.com/81498189/113159348-7fee0180-9277-11eb-95ff-4e2a76d34d21.png)
-
-![side_txt](https://user-images.githubusercontent.com/81498189/113159410-8c725a00-9277-11eb-93c5-b6572f99c188.png)
 
 ![main1](https://user-images.githubusercontent.com/81498189/113159414-8d0af080-9277-11eb-818c-c89b92f019ec.jpg)
 
