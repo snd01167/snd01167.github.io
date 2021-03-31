@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+    /*비디오 */
+    video { max-width: 70%; display: block; border-radius: 6px; margin: 7vw auto; opacity: 88%; }
+ 
+    /* 웹 */
+    html { font-size:10px; }
+    /*콘텐츠 안보이게 */
+    header .icon_menu{  display: none; }
+    /*전체 적용*/
+    body { text-transform:capitalize;  font-family: 'AppleSDGothicNeoL'; font-size:2rem; padding-top: 164px; overflow: hidden; overflow-y: auto; }
+    a { display: block; }
+    img { /*width: max-content;*/ border-radius: 6px; opacity: 98%;}
+    h2 { font-family: 'AppleSDGothicNeoEB'; font-size:2.1rem; }
+    h3 { font-family: 'GmarketSansLight'; font-size:3.3rem; line-height: 6rem;  margin-bottom:1.5vw; }
+    p { line-height: 3.9rem; width: 100%;}
+    button { border:0; background-color: #687D62; color: white; width: 85px; height:31px; font-size: 1.6rem; font-family:'AppleSDGothicNeoM'; border-radius: 50px; line-height:31px; cursor: pointer;}
+
+    /*header*/
+
+    .scroll_01 { width: 100%; height:164px; background-color: rgba(255, 255, 255, 0.88);   position: fixed; top: 0; left: 50%; right: 0; z-index: 1000; transform:translate(-50%);transition:all .3s;border-radius: 0 0 10px 10px; }
+    header { height:164px; width: 83.333333%; display: flex; justify-content: space-between; align-items: flex-end; margin:0 auto; }
+    header .box1 { display: flex; align-items: flex-end; height: 164px; }
+    header .box1 h1 { margin:0; padding-bottom: 20px; }
+    header .box1 nav ul{ padding:0 0 40px 100px; display: flex; }
+    header .box1 nav ul li a{ margin-right:65px; color:black; font-family: 'AppleSDGothicNeoEB'; font-size:18px;}
+
+    header .box2 { padding-bottom: 40px; display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; height: 85px; }
+    header .box2 a{ margin-left:35px; display: inline-block;}
+    header .box2 .search { border-bottom:1px solid black; width: 248px; display: flex; justify-content: space-between;  font-family: 'AppleSDGothicNeoEB'; font-size:17px;}
+    
+    /*main*/
+
+    /**브랜드 첫 설명 페이지 **/
+    .brand_first_info>.main1_bg { width: 100%; height:39.115vw; background: url(https://user-images.githubusercontent.com/81498189/113159414-8d0af080-9277-11eb-818c-c89b92f019ec.jpg) no-repeat top/cover;   opacity: 88%;}
+    .brand_first_info {  width: 100%;position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center;  }
+
+    .brand_first_info .deco { width: 100%; padding: 1.5vw 0.16vw; box-sizing: border-box; display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start;  position: absolute; top:0px; left: 0px; margin-top: 164px;}
+    .brand_first_info .deco > img:nth-child(1) {
+        margin-top: -8.542vw; }
+    .brand_first_info .deco > img:nth-child(2) { margin-top: 14.6vw; min-width:30% }
+    .brand_first_info .deco > img:nth-child(3) { margin-top: 27vw; padding-left:30%; min-width:22%}
+    .brand_first_info .deco > img:nth-child(4) { margin-top: 30vw; }
+
+
+    .main_txt_box { width: 70vw; display: flex; flex-direction: column; margin:17vw auto;}
+
+    .main_txt_box .main_txt { padding-left:2.3vw;  }
+    .main_txt_box .main_txt2 { padding-left:2.3vw;  }
+    .brand_first_info #main2 { margin:10.5vw 0; object-fit: cover;  }
+
+   
+
+
+
+   /**베스트 페이지**/
+  #best_section { width: 100vw; background-color:#6572622a ; display: flex; justify-content: center; align-items: center; height:91.418vw; margin-bottom:4vw; }
+    .best .best_all { width: 70vw; height: auto; display: flex; flex-direction:column;  justify-content: flex-start; align-items: center; margin-bottom:7vw;
+    }
+    /* 제목 과 전체보기 버튼 */
+    .best_h2box { width: 70vw; height: auto; display: flex;  flex-direction: row; justify-content: space-between;align-items: flex-start;  margin:7vw 0 4vw 0 ; }
+    .best .best_container { width: 100%;  text-align:center  }
+    .best .best_container>.bext_box {width:100%;  display:inline-block;  }
+    .best  .b_card { width: 21.2vw ; height:31.8vw ; max-width: 21.2vw;  max-height:31.8vw ;  margin:1vw;  background-color: transparent; float: left; }
+     .best_container  .best_img {  width: 100%; height:60%; border-radius: 6px;}
+    .best_container .best_txt {  width: 100%; height:25%; color: #687D62; font-size:0.9vw; line-height:1.8vw; text-align:justify; padding:4%; box-sizing: border-box; font-family: 'AppleSDGothicNeoM'; border-bottom: 1px solid #687d62; }
+    .best .best_container  .best_button { height:15%; display: flex;  flex-direction: row; justify-content: center; align-items: center;}
+    .best .best_container  .best_button button { color: #687D62;  background-color: transparent; border:1px solid #687D62; font-family: 'AppleSDGothicNeoEB';}
+    .bext_box .b_card:nth-child(1) .best_img  { background: url(https://user-images.githubusercontent.com/81498189/113159085-4cab7280-9277-11eb-998b-c8caf3211cc3.jpg) no-repeat left/ cover ;}
+    .bext_box .b_card:nth-child(2) .best_img  { background: url(https://user-images.githubusercontent.com/81498189/113159091-4d440900-9277-11eb-9930-7e3cd3e99f50.jpg) no-repeat left/ cover ;}
+    .bext_box .b_card:nth-child(3) .best_img  { background: url(https://user-images.githubusercontent.com/81498189/113159095-4ddc9f80-9277-11eb-8560-804a8b38c516.jpg) no-repeat left/ cover ;}
+    .bext_box .b_card:nth-child(4) .best_img  { background: url(https://user-images.githubusercontent.com/81498189/113159080-4c12dc00-9277-11eb-99ee-5523f86ac2e0.jpg) no-repeat left/ cover ;}
+    .bext_box .b_card:nth-child(5) .best_img  { background: url(https://user-images.githubusercontent.com/81498189/113159150-57fe9e00-9277-11eb-969a-ed5169cd05d4.jpg) no-repeat left/ cover ;}
+    .bext_box .b_card:nth-child(6) .best_img  { background: url(https://user-images.githubusercontent.com/81498189/113159152-57fe9e00-9277-11eb-8ad5-2eb262c8b76a.jpg) no-repeat left/ cover ;}
+  
+    .best_txt span {   font-family: 'AppleSDGothicNeoH';}
+  
+    /****** 타입 페이지 *******/
+
+    .type { width: 100%; height: auto; display: flex; justify-content: center; align-items: center;} 
+    .type .type_all { width: 70vw; height: auto; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; display:inline-block;  margin-bottom:4vw; }
+    /* 제목 과 전체보기 버튼 */
+    .type_h2box { width: 70vw; height: auto; display:flex; flex-direction: row; align-items: flex-start; justify-content: space-between; margin:7vw 0 4vw 0 ;}
+    .type_container .t_card { overflow: hidden;}
+    .type_container .t_card  img{ float: left;}
+    .type_container .t_card img:nth-child(1) { width: 51%;margin-right: 2.7%; }
+    .type_container .t_card img:nth-child(2) { width: 46.3%; margin-bottom: 2.7%;}
+    .type_container .t_card img:nth-child(3) { width: 46.3%; }
+
+
+
+
+    /********이벤트 영역********/
+    .event { width: 100%; height: auto; display: flex; justify-content: center; align-items: center; }
+    .event_all { width: 70vw; height: auto; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; display:inline-block;   }
+    /* 제목 */
+    .event_h2box { width: 70vw; height: auto; display:flex; flex-direction: row; align-items: flex-start; justify-content: flex-start; margin:7vw 0 4vw 0 ;}
+    .event_container { background: url(https://user-images.githubusercontent.com/81498189/113159236-6947aa80-9277-11eb-8d5f-c04d98c9a4ae.jpg) no-repeat left/cover; height:20vw; width: 70vw; margin-bottom:4vw; display: flex; align-items:center;  border-radius: 6px; overflow: hidden;}
+    .event_container>img { height:auto; width:94%; object-fit: contain; padding-top:2vw; }
+    .event_container>img:nth-child(2) { display: none;}
+
+
+
+    /*************** sns 영역 ****************/
+    .sns {  width: 100%; height: auto; display: flex; justify-content: center; align-items: center; }
+    .sns_all { width: 70vw; height: auto; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; display:inline-block;  margin-bottom:7vw; }
+    /* 제목 */
+    .sns_h2box { width: 70vw; height: auto; display:flex; flex-direction: column; align-items:flex-start; justify-content: space-between; margin:7vw 0 0 0 ;}
+    .under_h2 { height: auto; width: 70vw; height:5vw; display: flex; flex-direction: row; justify-content: space-between; align-items: center; font-size: 1.5rem;}
+    .sns_icon { width: 8vw; display:flex; flex-direction: row;   justify-content: space-between;}
+    .sns_icon img{ width: 2.3vw; min-width: 30px; }
+
+    .sns_container { width: 70vw; height: auto; display: flex; flex-direction: row; }
+    .sns_container div { width:11vw ; height: 11vw; margin-right: 0.8vw; background-color: #687D62; border-radius: 6px;}
+    .sns_container .sns_img1 { background: url(https://user-images.githubusercontent.com/81498189/113159527-a01dc080-9277-11eb-9975-b7a6fa318154.jpg) no-repeat top/cover;}
+    .sns_container .sns_img2 { background: url(https://user-images.githubusercontent.com/81498189/113159530-a01dc080-9277-11eb-8de8-0aaa9b2ef142.jpg) no-repeat top/cover;}
+    .sns_container .sns_img3 { background: url(https://user-images.githubusercontent.com/81498189/113159509-9e53fd00-9277-11eb-9697-1da8e6cc7bdd.jpg) no-repeat top/cover;}
+    .sns_container .sns_img4 { background: url(https://user-images.githubusercontent.com/81498189/113159589-af9d0980-9277-11eb-9faa-2d9b9dd55190.jpg) no-repeat top/cover;}
+    .sns_container .sns_img5 { background: url(https://user-images.githubusercontent.com/81498189/113159596-b035a000-9277-11eb-8df1-b07a6d12d857.jpg) no-repeat top/cover;}
+    .sns_container .sns_img6 { margin-right:0; background: url(https://user-images.githubusercontent.com/81498189/113159600-b035a000-9277-11eb-8f6a-75fea2c8fdee.jpg) no-repeat top/cover;}
+
+    /*sns 밑에 리뷰 이벤트 동그라미*/
+    .review_event_bg { width: 70vw; height:20vw; background-color: #687D62;  margin: 0 auto;  margin-bottom:7vw; border-radius: 6px; color: white; padding:30px 40px; box-sizing: border-box;
+    display: flex; flex-direction: column; justify-content: center;}
+    .review_event_bg p:nth-child(1) { font-size: 2.8rem; font-family: 'AppleSDGothicNeoB'; }
+    .review_event_bg p:nth-child(1) span {
+        margin-bottom: 2vw; color: orange;
+    }
+    .review_event_bg p:nth-child(2) {font-size:1.3vw; }
+    .review_event_bg p:nth-child(3) {  font-size: 1.1vw; line-height: 1.3vw; color: #c5cac0;}
+    .review_event_bg p:nth-child(3) span { color: orange;}
+
+    /*하단 큰 이미지 & 브랜드 설명 */
+    .brand_info { width: 100%; height:39.115vw; background: url(https://user-images.githubusercontent.com/81498189/113159135-559c4400-9277-11eb-8770-78038f1080ca.jpg) no-repeat top/cover; display: flex; justify-content: center;  align-items: center;}
+    .brand_info_txt { width: 70%; display: flex; flex-direction: column; justify-content: center; }
+    .brand_info p { width: 100%; margin-bottom: 0.5vw; font-size: 1.8rem; line-height: 2rem; }
+    .brand_info p:last-child { color:#687D62; font-size: 1.6rem;}
+   
+     
+
+
+    /*footer*/
+    footer { width:100%; height: 137px; background-color:#6D6554; display: flex; justify-content: center;  align-items: center;}
+    #footer .foot { width: 70%; display: flex; flex-direction: column;  }
+    #footer .foot p { font-size:1.2rem; color: white; line-height:2.3rem;}
+
+
+
+
+   /*///////////////////// / 태블릿*/
+    @media screen and (max-width: 1230px){
+    /*안보여야 하는 콘텐츠*/
+    header .box1 nav{ display: none;}
+    .brand_first_info .deco > img:nth-child(2) { opacity: 0;}
+    .brand_first_info .deco > img:nth-child(3) { opacity: 0;}
+    .brand_first_info .deco > img:nth-child(1) { margin-top: -164px; }
+    .brand_first_info .deco > img:nth-child(4) { margin-top: 25vw; }
+
+    video { margin: 10vw auto;}
+    button {color:#687D62; background-color:transparent; font-family: 'AppleSDGothicNeoEB';  } 
+    .best_h2box button { width:auto; height: 1.6rem; line-height: 1.6rem; padding: 0;}
+    .type_h2box button { width:auto; height: 1.6rem; line-height: 1.6rem; padding: 0;}
+
+     /*베스트*/
+     #best_section { width: 100%;  display: flex; justify-content: center; align-items: center; height: 187vw; margin-bottom: 5vw;}
+    .best .best_all { width: 70vw; height: auto; display: flex; flex-direction:column;  justify-content: flex-start; align-items: center;  margin-bottom:10vw; }
+    /* 제목 과 전체보기 버튼 */
+    .best_h2box { width: 70vw; height: auto; display: flex; flex-direction: row; justify-content: space-between;align-items: flex-start; margin:15vw 0 5vw 0 ; }
+    .best .best_container { width: 100%;  text-align:center;  }
+    .best .best_container>.bext_box {width:100%;  display:inline-block;  }
+    .best  .b_card { width: 33vw ; height: 49.5vw ; max-width: 33vw;  max-height:49.5vw ;  margin:1vw;  float: left;   }
+     .best_container  .best_img {  width: 100%; height:60%; }
+    .best_container .best_txt {  width: 100%; height:25%; font-size: 1.6vw; line-height:2.7vw; }
+
+
+    /************타입**********/
+    .type .type_all { width: 70vw; height: auto; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; display:inline-block;  margin-bottom:5vw; }
+
+    .type_h2box { width: 70vw; height: auto; display:flex; flex-direction: row; align-items: flex-start; justify-content: space-between; margin:10vw 0 5vw 0 ;}        
+
+     /********이벤트 영역********/
+     .event { width: 100%; height: auto; display: flex; justify-content: center; align-items: center; }
+    .event_all { width: 70vw; height: auto; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; display:inline-block;  margin-bottom:5vw; }
+   
+    /* 제목 */
+    .event_h2box { width: 70vw; height: auto; display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-start;  margin:10vw 0 5vw 0 ; }
+   
+
+    .event_container { background: url(https://user-images.githubusercontent.com/81498189/113159236-6947aa80-9277-11eb-8d5f-c04d98c9a4ae.jpg) no-repeat left/cover; height:23vw; width: 70vw;margin:0; display: flex; align-items:center;  border-radius: 6px;}
+    .event_container>img { height:auto; width:94%;  padding-top:2vw; overflow: hidden;}
+
+
+    /*sns*/
+    .sns{ width: 100%; height: auto; display: flex; justify-content: center; align-items: center; }
+    .sns_all { width: 70vw; height: auto; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; display:inline-block;  margin-bottom:10vw; }
+    /* 제목 */
+    .sns_h2box { width: 70vw; height: auto; display:flex; flex-direction: column; align-items:flex-start; justify-content: space-between; margin:10vw 0 0 0 ;}
+ 
+    
+   
+    .under_h2 {  width: 70vw; height:7vw; display: flex; flex-direction: row; justify-content: space-between; align-items: center; font-size: 1.5rem;}
+    .sns_icon { width:100px; display:flex; flex-direction: row;   justify-content: space-between;}
+    .sns_icon img{ width: 30px; }
+
+    /*sns 박스들*/
+    .sns_container { width: 70vw; height: auto; display: flex; flex-direction: row; }
+    .sns_container div { width:13.36vw ; height: 13.36vw; margin-right: 0.8vw;}
+    .sns_container .sns_img1 { background: url(https://user-images.githubusercontent.com/81498189/113159527-a01dc080-9277-11eb-9975-b7a6fa318154.jpg) no-repeat top/cover;}
+    .sns_container .sns_img2 { background: url(https://user-images.githubusercontent.com/81498189/113159530-a01dc080-9277-11eb-8de8-0aaa9b2ef142.jpg) no-repeat top/cover;}
+    .sns_container .sns_img3 { background: url(https://user-images.githubusercontent.com/81498189/113159509-9e53fd00-9277-11eb-9697-1da8e6cc7bdd.jpg) no-repeat top/cover;}
+    .sns_container .sns_img4 { background: url(https://user-images.githubusercontent.com/81498189/113159589-af9d0980-9277-11eb-9faa-2d9b9dd55190.jpg) no-repeat top/cover;}
+    .sns_container .sns_img5 { background: url(https://user-images.githubusercontent.com/81498189/113159596-b035a000-9277-11eb-8df1-b07a6d12d857.jpg) no-repeat top/cover;  margin-right:0;}
+    .sns_container .sns_img6 { display: none;}    
+    
+    /*sns 밑에 리뷰 이벤트 동그라미*/
+    .review_event_bg { width: 70vw; height:23vw; min-height: 200px;    margin-bottom:10vw;  padding:20px 30px; }
+    .review_event_bg p:nth-child(1) { font-size: 2.6vw;  line-height: 3.6vw; font-family: 'AppleSDGothicNeoB'; }
+    .review_event_bg p:nth-child(2) {font-size:1.7vw; line-height: 2.2vw; }
+    .review_event_bg p:nth-child(3) { font-size:1.2vw; line-height: 2vw;}
+   
+
+
+    
+    /* 맨밑 배경화면 있는 영역 */
+    .brand_info {  height: 500px; padding:50px 0;}
+    .brand_info h3 { font-size: 2.8rem; line-height: 4rem; }
+    .brand_info .brand_info_txt p{ font-size: 1.7rem; margin-bottom: 1vw; line-height: 1.9rem; }
+    .brand_info p:last-child { font-size: 1.2rem;}
+
+    /*footer*/
+    #footer .foot p { font-size:1rem;  line-height:1.9rem;}
+
+   
+    }
+
+
+
+       
+
+    @media screen and (max-width: 600px) {
+    /*보여져야 하는 콘텐츠*/
+  
+    header { margin: 0 auto;  }
+    header .icon_menu{ display: block;}
+    header .box2 .icon_box>.icon_user {  display: none; }
+    /*꾸밈*/
+
+    /*전체*/
+
+    /*비디오 */
+    video { max-width: 90%; display: block; border-radius: 6px; margin: 10vw auto; opacity: 88%; }
+
+    body {font-size:1.3rem;  }
+    p { line-height: 2.4rem;  font-family: 'AppleSDGothicNeoM'; }
+    h2 { font-size:1.7rem; }
+    h3 { font-size:1.8rem; line-height: 3rem;  font-family: 'GmarketSansMedium'; }
+    button {color:#687D62; background-color:transparent; font-family: 'AppleSDGothicNeoEB';  font-size:1.3rem; height:1.3rem; line-height: 1.3rem; width:auto; padding:0;} 
+
+    /*헤더*/
+    header .box2 { display: flex;  height: 85px; flex-direction: row; align-items:flex-start; }
+    header .box2 .search>span{  display: none; }
+    header .box2 .search { border:0; width:53px;}
+    header .box2 .icon_menu img { width: 20px; height: 20px; object-fit: cover; }
+    header .icon_menu img { width: 22px; height: 22px; object-fit: contain; margin-bottom: 105px;}
+    header .box1>h1 img { width:30vw; min-width: 120px; padding-left: 15px;}
+    header { display: flex; flex-direction: row; justify-content: space-between;}
+    header .box2 .icon_box>.icon_cart a { margin:0; }
+    header .box2 .search a { margin-left: 35px;}
+    
+    /*메인*/
+    .brand_first_info>.main1_bg { width: 100%; height:100vw; background: url(https://user-images.githubusercontent.com/81498189/113159414-8d0af080-9277-11eb-818c-c89b92f019ec.jpg) no-repeat 50%/cover;  }
+    .brand_first_info .deco > img:nth-child(1) { margin-top: -145px;}
+    .brand_first_info .deco > img:nth-child(4) { margin-top:55vw;}
+    .brand_first_info #main2 { width: 100vw; height: 100vw; margin-left:-20%;object-fit:cover }
+
+    
+    /*베스트*/
+    #best_section { width: 100%; height: 228vw; display: flex; justify-content: center; align-items: center; }
+    .best .best_all { width: 90vw; height: auto; display: flex; flex-direction:column;  justify-content: flex-start; align-items: center;  margin-bottom:5vw; }
+    /* 제목 과 전체보기 버튼 */
+    .best_h2box { width: 85vw; height: auto; display: flex; flex-direction: row; justify-content: space-between;align-items: flex-start; margin:15vw 0 5vw 0 ; }
+    .best .best_container { width: 100%;  text-align:center;  }
+    .best .best_container>.bext_box {width:100%;  display:inline-block;  }
+    .best  .b_card { width: 43vw ; height: 64.5vw ; max-width: 43vw;  max-height:64.5vw ;  margin:1vw;  float: left;   }
+     .best_container  .best_img {  width: 100%; height:60%; }
+    .best_container .best_txt {  width: 100%; height:30%; font-size: 2vw; line-height:3.5vw; padding:3%; }
+    .best .best_container  .best_button { height:10%; display: flex;  flex-direction: row; justify-content: center; align-items: center;}
+    .best .best_container  .best_button button { width:43px; height:auto;  color: #687D62; font-family: 'AppleSDGothicNeoEB'; line-height: 16px; font-size:13px; border: 0;}
+    
+
+    /*타입*/
+    .type { width: 100%; height: auto; display: flex; justify-content: center; align-items: center;} 
+    .type .type_all { width: 90vw; height: auto;  display:flex; flex-direction:column;  justify-content: flex-start; align-items: center;  margin-bottom:5vw;}
+    .type_h2box { width: 85vw; height: auto; display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start;  margin:10vw 0 5vw 0 ; }
+  
+    .type .type_container .t_card img:nth-child(3) { display: none;}
+    .type .type_container .t_card img:nth-child(1) {width: 100%; margin-bottom: 1vw;}
+    .type .type_container .t_card img:nth-child(2) {width: 100%; margin-bottom: 0; }
+
+
+    /********이벤트 영역********/
+    .event { width: 100%; height: auto; display: flex; justify-content: center; align-items: center; }
+    .event_all { width: 90vw; height: auto; display: flex; flex-direction: column;   margin-bottom:5vw; text-align: center;}
+    .event_container>img:nth-child(1) { display: none;}
+    .event_container>img:nth-child(2) { display: block;}
+
+
+    /* 제목 */
+    .event_h2box { display: inline-block; width: 85vw; height: auto; display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-start;  margin:10vw 0 5vw ; }
+    .event_container { height:59vw; width: 90vw;}
+    
+
+
+    /*sns*/
+.sns {  width: 100%; height: auto; display: flex; justify-content: center; align-items: center; }
+    .sns_all { width: 90vw; height: auto; display: flex; flex-direction: column;   margin-bottom:10vw; text-align: center; }
+    /* 제목 */
+    .sns_h2box {display:inline-block;   width: 85vw; height: auto; display:flex; flex-direction: column; align-items:flex-start; justify-content: space-between; margin:10vw 0 0 0 ;}
+    .under_h2 { height: auto; width: 85vw; height:15vw; display: flex; flex-direction: row; justify-content: space-between; align-items: center; font-size: 1.3rem;}
+    .sns_icon { width: 100px; display:flex; flex-direction: row;   justify-content: space-between;}
+    .sns_icon img{ width: 30px; padding: 0;}
+    /*sns 박스들*/
+    .sns_container { width: 90vw; height: auto; display: flex; flex-direction: row; }
+    .sns_container div { width:21.75vw ; height: 21.75vw; margin-right: 1vw;}
+    .sns_container .sns_img1 { background: url(https://user-images.githubusercontent.com/81498189/113159527-a01dc080-9277-11eb-9975-b7a6fa318154.jpg) no-repeat top/cover;}
+    .sns_container .sns_img2 { background: url(https://user-images.githubusercontent.com/81498189/113159530-a01dc080-9277-11eb-8de8-0aaa9b2ef142.jpg) no-repeat top/cover;}
+    .sns_container .sns_img3 { background: url(https://user-images.githubusercontent.com/81498189/113159509-9e53fd00-9277-11eb-9697-1da8e6cc7bdd.jpg) no-repeat top/cover;}
+    .sns_container .sns_img4 { background: url(https://user-images.githubusercontent.com/81498189/113159589-af9d0980-9277-11eb-9faa-2d9b9dd55190.jpg) no-repeat top/cover; margin-right:0;}
+    .sns_container .sns_img5 { display: none; }
+
+
+    /*sns 밑에 리뷰 이벤트 동그라미*/
+    body .review_event_bg { width: 90vw; height:60vw; min-height: 150px;   margin-bottom:10vw;  padding:15px 25px; }
+    body .review_event_bg>p:nth-child(1) { font-size: 4.5vw;  line-height: 5vw; font-family: 'AppleSDGothicNeoB'; }
+    body .review_event_bg>p:nth-child(1) br:nth-child(3) { display: none;}
+    body .review_event_bg>p:nth-child(2) {font-size:3vw; line-height: 6vw; }
+    body .review_event_bg>p:nth-child(3) { font-size:2vw; line-height: 4vw;}
+
+
+
+   
+    /* 맨밑 배경화면 있는 영역 */
+    .brand_info{ height: auto;  padding:70px 0; }
+    .brand_info_txt {width: 90%;}
+    .brand_info .brand_info_txt h3 { font-size: 1.8rem; line-height: 3rem;}
+    .brand_info .brand_info_txt p{ font-size: 1.3rem; line-height: 2.4rem;}
+    .brand_info .brand_info_txt p:last-child { font-size: 2.4vw;}
+
+
+    /*footer
+    #footer { width:100%; height: 200px;  background-color:#6D6554; display: flex; flex-direction: column; justify-content: center;  padding:5vw; }
+    #footer p {width: 100%; font-size:1.1rem; color: white; line-height:1.6rem; margin-bottom: 3vw; }*/
+
+    /*footer*/
+    footer { width:100%; height: 200px;  }
+    #footer .foot { width: 90%; }
+    #footer .foot p { font-size:1.1rem;  line-height:2.1rem;}
+
+
+
+
+    }
+   
+
