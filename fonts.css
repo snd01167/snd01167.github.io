@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/*웹폰트를 사용하기 위해 사전설정 작업*/
+
+@charset "utf-8";
+
+/*웹폰트를 사용하기 위해 사전설정 작업*/
+
+
+
+-------------------------------------
+
+/*'GmarketSansLight'*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'GmarketSansLight';
+    src: url('./GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*'GmarketSansMedium'*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'GmarketSansMedium';
+    src: url('./GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*'GmarketSansBold'*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'GmarketSansBold';
+     src: url('./GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+------------------------------
+
+
+/*'AppleSDGothicNeoB*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'AppleSDGothicNeoB';
+     src: url('./AppleSDGothicNeoB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*'AppleSDGothicNeoEB*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'AppleSDGothicNeoEB';
+     src: url('./AppleSDGothicNeoEB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*'AppleSDGothicNeoH*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'AppleSDGothicNeoH';
+     src: url('./AppleSDGothicNeoH.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*'AppleSDGothicNeoL*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'AppleSDGothicNeoL';
+     src: url('./AppleSDGothicNeoL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*'AppleSDGothicNeoM*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'AppleSDGothicNeoM';
+     src: url('./AppleSDGothicNeoM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
