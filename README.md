@@ -57,6 +57,8 @@ https://user-images.githubusercontent.com/81498189/113149001-80819a80-926d-11eb-
 
 ![icon_user](https://user-images.githubusercontent.com/81498189/113159342-7f556b00-9277-11eb-82b7-6259c8e6a3a6.png)
 
+![line1](https://user-images.githubusercontent.com/81498189/113173009-f42ea200-9283-11eb-9ded-a4d1942948b9.png)
+
 ![line2](https://user-images.githubusercontent.com/81498189/113159348-7fee0180-9277-11eb-95ff-4e2a76d34d21.png)
 
 ![side_txt](https://user-images.githubusercontent.com/81498189/113159410-8c725a00-9277-11eb-93c5-b6572f99c188.png)
