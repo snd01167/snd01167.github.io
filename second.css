@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "utf-8"; 
 
 .mouse {  position: absolute; width: 10px; height: 10px; top: 10%; left: 10%;
         border: 2.5px solid #F39820; border-radius: 50%; z-index: 1000; }
@@ -50,7 +50,7 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 .box_1 .box_when ul { padding-left: 20px; }
 
 /*섹션2*/
-#section1 .container .container_1 .box1 { background:url(images2/1_problem.jpg) no-repeat 50% / cover; border-radius: 20px;  box-shadow:
+#section1 .container .container_1 .box1 { background:url(https://user-images.githubusercontent.com/81498189/113143119-bd965e80-9266-11eb-947f-30d51ace4320.jpg) no-repeat 50% / cover; border-radius: 20px;  box-shadow:
   0 0.9px 1.9px -79px rgba(0, 0, 0, 0.047),
   0 2.3px 4.9px -79px rgba(0, 0, 0, 0.067),
   0 4.8px 9.9px -79px rgba(0, 0, 0, 0.083),
@@ -60,7 +60,7 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 /*섹션3*/
 #section2 .container .container_1 .box1 { display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
 #section2 .container .container_1 .box1 .img_box1 { width: 80%; height: 60%; display: flex; flex-direction:row; flex-wrap: wrap;   }
-#section2 .container .container_1 .box1 .img_box2 { width: 80%; height: 40%;  background: url(images2/solution5.svg) no-repeat 50% / contain;}
+#section2 .container .container_1 .box1 .img_box2 { width: 80%; height: 40%;  background: url(https://user-images.githubusercontent.com/81498189/113143284-edddfd00-9266-11eb-81ec-92c4f2e018c8.png) no-repeat 50% / contain;}
 
 #section2 .container .container_1 .box1 .img_box1 .img_box { width: 50%; height: 50%; padding:2%; box-sizing: border-box; }
 #section2 .container .container_1 .box1 .img_box1 .img_box img {  width: 100%; height: 100%;  object-fit: cover; object-position: center; border-radius: 20px;  box-shadow:
@@ -110,7 +110,7 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 
 
 /*섹션6*/
-#section5 .container .container_1 .box1 {  background:url(images2/last.jpg) no-repeat 50% / cover; border-radius: 1000px 1000px 0 0; width: 60%;  }
+#section5 .container .container_1 .box1 {  background:url(https://user-images.githubusercontent.com/81498189/113143147-ca1ab700-9266-11eb-94d2-3518178287d9.jpg) no-repeat 50% / cover; border-radius: 1000px 1000px 0 0; width: 60%;  }
 #section5 .container .container_2 .box2 .button { width: 100%; height: 80%; display: flex; flex-direction: column; justify-content:center; align-items: center;} 
 #section5 .container .container_2 .box2 {display: flex; flex-direction: column; justify-content: center;}
 #section5 .container .container_2 .box2 a { width: 200px; height:30px; border: 2px solid black; border-radius: 300px; color: black; text-decoration: none; text-align: center; line-height: 30px; font-family: 'GmarketSansBold'; font-size: 19px; }
