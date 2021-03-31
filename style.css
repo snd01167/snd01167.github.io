@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "utf-8"; 
 
 .mouse {  position: absolute; width: 10px; height: 10px; top: 10%; left: 10%;
         border: 2.5px solid #F39820; border-radius: 50%; z-index: 1000; }
@@ -149,7 +149,7 @@ animation: maintxt2 9s 1 both; } */
 
 /* 섹션 2 */
 
-section>.box2_2 { height: 99.6%; width:60%; background:url(images/bg1.svg) no-repeat 50% /contain; display: flex; justify-content: center; align-items: center; }
+section>.box2_2 { height: 99.6%; width:60%; background:url(images/bg1.png) no-repeat 50% /contain; display: flex; justify-content: center; align-items: center; }
 section>.box2_2 .myimg { border-radius: 50%; width:300px; height:300px;  overflow: hidden; background: url(images/myimg2.jpg) no-repeat 80%/ cover; }
 section>.box2_2 .myimg img { width:300px; height:300px; object-fit: cover; animation: introimg 10s infinite both; border-radius: 50%;  }
 
@@ -562,7 +562,7 @@ video { object-fit: cover; object-position:bottom; display: block; margin: 0 aut
 
 
  /*하트 오브제 있는 영역*/
- .box5_2 { width: 65%; height: 100%;   background-image: url(images/last_bg.svg); border-left:2.5px solid black; box-sizing: border-box; display: flex; flex-direction: column;  }
+ .box5_2 { width: 65%; height: 100%;   background-image: url(images/last_bg.png); border-left:2.5px solid black; box-sizing: border-box; display: flex; flex-direction: column;  }
 .box5_2_1 {  flex:1; overflow: auto; position: relative; display: flex; justify-content: center; align-items: center;}
 .box5_2_1 .heart>.heart_top{ width:100%; display: flex; padding-top: 50px; }
 .box5_2_1 .heart>.heart_top img { flex:1; height: fit-content; width: 100%; overflow: auto;} 
@@ -620,7 +620,7 @@ body .sec>p:first-child  { font-size: 6px; line-height: 12px; }
 
 
 /*섹션 2*/ 
-section>.box2_2  { width:60%; height: 75%; background:url(images/bg1.svg) no-repeat 90% 50% /contain; position: absolute; top:0; right: 0;}
+section>.box2_2  { width:60%; height: 75%; background:url(images/bg1.png) no-repeat 90% 50% /contain; position: absolute; top:0; right: 0;}
 section>.box2_1 { width:40%; box-sizing: border-box; z-index: 1000;}
 section>.box2_1 .txt p  { font-size: 1.726vh;   margin-bottom: 2.5vh; text-shadow: 1px 1px 1px white; width: 120%;}
 section>.box2_1 .big_txt  {  line-height: 9vh; font-size: 7.6vh;  }

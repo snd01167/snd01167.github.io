@@ -5,394 +5,473 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--뷰포트-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title> 포트폴리오 웹사이트 </title>
-    <!--리셋 화-->
-    <link rel="stylesheet"  href="common/reset.css">
-    <!--노멀라이즈 화-->
-    <link rel="stylesheet"  href="common/normalize.css">
-    <!--css 문서 연결 -->
-    <link rel="stylesheet"  href="index.css">
-    <!-- 폰트 css 문서 연결 -->
-    <link rel="stylesheet"  href="common/fonts.css">
+   
+
+    <meta name="description" content="김수진 포트폴리오 페이지입니다">
+    <title>김수진_POTFOLIO </title>
+ 
+    <meta name="title" content="김수진 포트폴리오 페이지">
+    <meta name="description" content="김수진 포트폴리오 페이지입니다">
+    <!--오픈그라피-->
+    <meta property="og:title" content="김수진 포트폴리오 페이지">
+    <meta property="og:description" content="김수진 포트폴리오 페이지입니다">
+    <meta property="og:url" content="http://snd01167.dothome.co.kr">
+    <meta property="og:image" content="http://snd01167.dothome.co.kr/images/myimg.jpg">
+
+    <!--파비콘 -->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <!--제이쿼리 -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <!--내가 작성한 js-->
+    <script type="text/javascript" src="style.js"></script>
+
+    <!--꾸밈-->
+
+    <!--풀페이지.js-->
+    <script type="text/javascript" src="common/fullpage.min.js"></script>
+    <!--gsap.js-->
+    <script type="text/javascript" src="../common/gsap.min.js"></script>
+    <!--풀페이지.css-->
+    <link rel="stylesheet" href="common/fullpage.min.css">
+
+    <!--평준화 css-->
+    <link rel="stylesheet" href="common/normalize.css">
+    <!--웹폰트 css-->
+    <link rel="stylesheet" href="common/fonts.css">
+    <!--내가 작성한 css-->
+    <link rel="stylesheet" href="style.css">
+
+     
+
+   
+   
 </head>
 <body>
+    <!--마우스 커서-->  	
+    <div class="mouse"></div>
 
 
-<!--헤더 -->
-<div class="head scroll_01">
     <header id="header">
-            <!--왼쪽부분-->
-            <i class="icon_menu"><a href="#"><img src="https://user-images.githubusercontent.com/81498189/113159235-6947aa80-9277-11eb-8c1a-0b0803154cd6.png" alt="햄버거 아이콘" height="19px"></a></i>
-        <div class="box1">
-            <h1><a href="#"><img src="https://user-images.githubusercontent.com/81498189/113159147-57660780-9277-11eb-8dfa-04d39b726730.png" alt="떼시스 로고" width="164.846PX"></a></h1>
-            <!--중간부분-->
-            <nav>
-                <ul>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SHOP</a></li>
-                    <li><a href="#">EVENT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1  id="moveTo">
+            <a href="#"> <img src="images/logo.png" alt="김수진포트폴리오로고" width="25.412 px">Home</a>
+        </h1>
+        <ul class="gnb">
+            <li id="button1"><a href="#">About Me</a></li>
+            <li id="button2"><a href="#">Skills</a></li>
+            <li id="button3"><a href="#">Works</a></li>
+            <li id="button4"><a href="#">Contact</a></li>
+        </ul>
 
-            <!--오른쪽 부분-->
-        <div class="box2">
-            <!--유저 장바구니 아이콘 -->
-            <div class="icon_box"> 
-                <i class="icon_user">
-                    <a href="#"><img src="https://user-images.githubusercontent.com/81498189/113159342-7f556b00-9277-11eb-82b7-6259c8e6a3a6.png" alt="유저 아이콘" height="19px"></a>
-                </i>
-                <i class="icon_cart">
-                    <a href="#"><img src="https://user-images.githubusercontent.com/81498189/113159233-68167d80-9277-11eb-83a5-3f6578a6ffe6.png" alt="장바구니 아이콘" height="19px"></a>
-                </i>
-            </div>
-
-            <!--서치 아이콘-->
-            <div class="search">
-                <span>search</span>
-                <i class="icon_search"><a href="#"><img src="https://user-images.githubusercontent.com/81498189/113159340-7ebcd480-9277-11eb-91d3-14a65a4a02e7.png" alt="돋보기 아이콘" height="19px"></a>
-                </i>
-            </div>
-
-        </div>
-            
     </header>
+
+
+    <div id="fullpage">
+    
+<div class="section"  id="section0">
+
+    <section class="sec" >
+        
+        <p>N  37°  15’ 50” <br>
+            E  127°  01’ 43”<br>
+            SUNNY </p>
+
+        <div class="box1_1">
+            <div class="draw1">
+                <img src="images/line.png" alt="라인">
+                <div class="circle sun"></div>
+            </div>
+                <P class="easing_txt"> 
+                    <span class="maintxt1">매일 “해”가 뜨는 것 같이</span>
+                    <span class="maintxt2">아이디어가 떠오르는 </span>
+                    <span class="maintxt3">저는 “수진” 입니다. </span>
+                </P>
+        </div>
+
+        <p>( THIS POTFPLIO MADE BY KIMSUJIN )</p>
+    </section>
 </div>
-<!--메인-->
-    <main id="main">
-            <!--브랜드 첫 설명-->
-            <section class="brand_first_info">
 
-            <div class="main1_bg"> </div>
-                <!--사이드 글자-->
-            <div class="deco">
-                <img src="https://user-images.githubusercontent.com/81498189/113159410-8c725a00-9277-11eb-93c5-b6572f99c188.png" alt="ATELIER BEAUTE:THESIS" width="17.025px">
-                <img src="https://user-images.githubusercontent.com/81498189/113173009-f42ea200-9283-11eb-9ded-a4d1942948b9.png" alt="꾸밈 선" width="30vw
-                ">
-                <img src="https://user-images.githubusercontent.com/81498189/113159348-7fee0180-9277-11eb-95ff-4e2a76d34d21.png" alt="꾸밈 선" width="28.646vw
-                ">
-                <img src="https://user-images.githubusercontent.com/81498189/113159410-8c725a00-9277-11eb-93c5-b6572f99c188.png" alt="ATELIER BEAUTE:THESIS" width="17.025px">
-            </div>
 
-        <div class="main_txt_box">
-            <div class="main_txt">
-                <h3>THESIS PERFUME : 한사람을 위한 블랜딩</h3>
+<div class="section" id="section1">
+    <section>
 
-                <p>바르고 정직한 재료만을 엄선해 떼시스만의 포뮬러를 가지고
-                    올바른 제품을 만들어 제공하는 것이 목표이며<br>
-                    자연에서 얻은 식물성 성분과 친환경 패키지로 자연주의 라이프를 실천합니다.</p>
-            </div>
-
-                <img src="https://user-images.githubusercontent.com/81498189/113159423-8e3c1d80-9277-11eb-8957-ff54f0f0a05e.png" alt="브랜드 첫 설명 페이지의 이미지" id="main2">
-
-            <div class="main_txt2">
-                <h3>NICHE PERFUME</h3>
-
-                <p>제조사나 판매사 모두 브랜드 가치를 최우선으로 여기고
-                    품질, 향, 유통도 일류를 지향하는 향수계의 명품이라 불립니다.<br>
-                    ‘틈새’를 뜻하는 이탈리아어 ‘Nicchia(니치아)’에서 파생되어 미국 식인 ‘Niche(니치)’로 쓰이게 되었으며 소수의 취향을 만족시키기 위해 만든 프리미엄 향수입니다. </p>
-            </div>
+        <div class="side_name">
+            <p>1</p>
+            <p>ABOUT ME</p>
         </div>
-
-            </section>
-            <!--베스트 다시다시-->
-            <section class="best" id="best_section"><!--베스트전체영역 백그라운드 이미지-->
-                <div class="best_all"><!--베스트안 70vw 영역 -->
-
-                    <div class="best_h2box"><!--베스트부분 상단 이름과 버튼-->
-                        <h2> BEST </h2>
-                        <button type="button">전체 보기</button>
-                    </div>
-
-
-                <div class="best_container"><!--베스트 카드 감싸는 컨테이너-->
-
-                    <div class="bext_box">
-
-                    <div class="b_card"><!--베스트 각 카드 박스-->
-                           
-                        <div class="best_img"></div> <!--베스트 백그라운드 이미지 적용할 박스 -->
-                        <div class="best_txt">
-                            <span>DOSON</span><br>
-                             #튜버로즈  #차분 은은한  #싱글 플로럴 향  #호불호 없음  #향긋 개성 있는 향 </div>
-                        <div class="best_button">
-                        <button type="button">보기</button>
-                        </div>    
-                     </div>
-
-                     <div class="b_card"><!--베스트 각 카드 박스-->
-                           
-                        <div class="best_img"></div> <!--베스트 백그라운드 이미지 적용할 박스 -->
-                        <div class="best_txt"> 
-                            <span>WHITE SUEDE</span><br>
-                            #화이트 스웨이드  #가을 겨울에 어울리는 향  #따스 포근한 향  #우아한 머스크  #벨벳장미  #앰버향 </div>
-                        <div class="best_button">
-                        <button type="button">보기</button>
-                        </div>    
-                    </div>
-
-                    <div class="b_card"><!--베스트 각 카드 박스-->
-                           
-                        <div class="best_img"></div> <!--베스트 백그라운드 이미지 적용할 박스 -->
-                        <div class="best_txt">
-                            <span>PHILOSYKOS</span><br>
-                            #그리스어 뜻  #무화과 나무친구  #편백나무  #상쾌한 아침  #나무 송진수액  </div>
-                        <div class="best_button">
-                        <button type="button">보기</button>
-                        </div>    
-                    </div>
-
-                    <div class="b_card"><!--베스트 각 카드 박스-->
-                           
-                        <div class="best_img"></div> <!--베스트 백그라운드 이미지 적용할 박스 -->
-                        <div class="best_txt">
-                            <span>INFLORESCENCE</span><br>
-                            #꽃이 핀다  #꽃집 문열 때  #봄이 시작 된다  #장미 프리지아 가득한 길  #소프트 목련향  #꽃에 맺힌 은방울</div>
-                        <div class="best_button">
-                        <button type="button">보기</button>
-                        </div>    
-                    </div>
-
-                    <div class="b_card"><!--베스트 각 카드 박스-->
-                           
-                        <div class="best_img"></div> <!--베스트 백그라운드 이미지 적용할 박스 -->
-                        <div class="best_txt">
-                            <span>WOOD SAGE & SEA SALT</span><br>
-                            #신선한 바닷 공기  #미네랄 향기  #투박한 절벽  #세이지의 우디한 흙내음  #부드러운 향기  #즐거운  #활기찬</div>
-                        <div class="best_button">
-                        <button type="button">보기</button>
-                        </div>    
-                    </div>
-
-                    <div class="b_card"><!--베스트 각 카드 박스-->
-                           
-                        <div class="best_img"></div> <!--베스트 백그라운드 이미지 적용할 박스 -->
-                        <div class="best_txt">
-                            <span>SPLASH RAIN</span><br>
-                            #비가 갠 뒤 촉촉한  #난초향   #촉촉잔디 향  #달큰한 산딸기 향  #진한 풀이끼 향  #알데하이드</div>
-                        <div class="best_button">
-                        <button type="button">보기</button>
-                        </div>    
-                     </div>
-
-                </div>
-
-
-                </div>
-
+    
+        <div class="box2_1">
+            <div class="txt">
+            <p class="intro">저를 소개합니다 -!</p>
+            <p>웹 디자인 퍼블리싱을 처음 접한 이후로 <br>
+                무한한 매력을 느끼며 이 세계의 고수가 되기 위해 <br>
+                24시 상시 노력 중인 저는 “김수진” 입니다!<br>
+                천재는 노력하는 자를 못이긴다.<br>
+                그런데 노력하는 자는 즐기는 사람을
+                못이긴다 라는 말이 있습니다.<br>
+                저는 제 자신을 즐기는 사람이라고 생각합니다. </p>
                 
-
-
-                </div>
-            </section>
-
-            <!--향수 분류 타입-->
-            <section class="type"><!--타입 전체 영역1-->
-                <div class="type_all"><!--타입 안 70vw 영역-->
-                    
-                    <div class="type_h2box"><!--타입부분 상단 이름과 버튼-->
-                        <h2>CITRUS / FRUTY</h2>
-                        <button type="button">보기</button>
-                    </div>
-
-                    <div class="type_container"><!--타입 카드 감싸는 컨테이너-->
-
-                            <div class="t_card">
-                                <img src="https://user-images.githubusercontent.com/81498189/113159655-c04d7f80-9277-11eb-9f4d-92f7b6ba5bfa.jpg".jpg" alt="이벤트 이미지">
-                                <img src="https://user-images.githubusercontent.com/81498189/113159650-bd528f00-9277-11eb-82d9-ffc6b279799b.jpg".jpg" alt="이벤트 이미지">
-                                <img src="https://user-images.githubusercontent.com/81498189/113159722-cd6a6e80-9277-11eb-9ae8-be08de05d091.jpg".jpg" alt="이벤트 이미지">
-                            </div>
-
-                            
-                    </div> <!--타입카드 감싸는 컨테이너-->
-
-                </div>  
-            </section>
-
-            <section class="type"><!--타입 전체 영역2-->
-                <div class="type_all"><!--타입 안 70vw 영역-->
-                    
-                    <div class="type_h2box"><!--타입부분 상단 이름과 버튼-->
-                        <h2>CITRUS / FRUTY</h2>
-                        <button type="button">보기</button>
-                    </div>
-
-                    <div class="type_container"><!--타입 카드 감싸는 컨테이너-->
-
-                            <div class="t_card">
-                                <img src="https://user-images.githubusercontent.com/81498189/113159725-ce030500-9277-11eb-9990-a8e5d03bb439.jpg".jpg" alt="이벤트 이미지">
-                                <img src="https://user-images.githubusercontent.com/81498189/113159726-ce9b9b80-9277-11eb-8dac-a901838e71e0.jpg".jpg" alt="이벤트 이미지">
-                                <img src="https://user-images.githubusercontent.com/81498189/113159714-cc394180-9277-11eb-9de4-9ec786ea81b0.jpg".jpg" alt="이벤트 이미지">
-                            </div>
-
-                            
-                    </div> <!--타입카드 감싸는 컨테이너-->
-
-                </div>  
-            </section>
-
-            <section class="type"><!--타입 전체 영역3-->
-                <div class="type_all"><!--타입 안 70vw 영역-->
-                    
-                    <div class="type_h2box"><!--타입부분 상단 이름과 버튼-->
-                        <h2>CITRUS / FRUTY</h2>
-                        <button type="button">보기</button>
-                    </div>
-
-                    <div class="type_container"><!--타입 카드 감싸는 컨테이너-->
-
-                            <div class="t_card">
-                                <img src="https://user-images.githubusercontent.com/81498189/113159810-deb37b00-9277-11eb-966f-921278373101.jpg".jpg" alt="이벤트 이미지">
-                                <img src="https://user-images.githubusercontent.com/81498189/113159813-df4c1180-9277-11eb-9536-b6423980e532.jpg".jpg" alt="이벤트 이미지">
-                                <img src="https://user-images.githubusercontent.com/81498189/113159814-df4c1180-9277-11eb-9239-fd6a9b8e3184.jpg".jpg" alt="이벤트 이미지">
-                            </div>
-
-                            
-                    </div> <!--타입카드 감싸는 컨테이너-->
-
-                </div>  
-            </section>
-
-
-
-
-
-
-            <!--이벤트-->
-            <section class="event"><!--이벤트 전체 영역3-->
-                <div class="event_all"><!--이벤트 안 70vw 영역-->
-                    
-                    <div class="event_h2box"><!--이벤트 부분 상단 이름과 버튼-->
-                        <h2>EVENT</h2>
-                    </div>
-
-                    <div class="event_container">
-                        <img src="https://user-images.githubusercontent.com/81498189/113159239-6a78d780-9277-11eb-819b-d8e8fffe58f9.png" alt="">
-                        <img src="https://user-images.githubusercontent.com/81498189/113159332-7e243e00-9277-11eb-8469-4c6eb7925c64.png" alt="">
-                    </div> <!--이벤트 배경이미지-->
-
-                </div>  
-            </section>
-
-
-            <!--sns-->
-               <section class="sns"><!--sns 전체 영역3-->
-                <div class="sns_all"><!--sns 안 70vw 영역-->
-                    
-                    <div class="sns_h2box"><!--sns 부분 상단 이름과 버튼-->
-                        <h2>SNS</h2>
-                            <div class="under_h2"><!--h2 밑에 컨텐츠들 박스 -->
-
-                                 <div class="#hash">#떼시스  #THESIS</div>
-
-
-                                 <i class="sns_icon"><!--아이콘 박스들-->
-
-                                    <a href="https://www.facebook.com/"><img src="https://user-images.githubusercontent.com/81498189/113159525-9f852a00-9277-11eb-9b40-79d988ec9543.png" alt="떼시스 페이스북"></a>
-
-                                     <a href="https://www.instagram.com/thesisperfume/?hl=ko"><img src="https://user-images.githubusercontent.com/81498189/113159587-ae6bdc80-9277-11eb-9696-5d70eb1ad5e1.png" alt="떼시스 인스타그램"></a>
-
-                                    <a href="https://twitter.com/?lang=ko"><img src="https://user-images.githubusercontent.com/81498189/113159652-be83bc00-9277-11eb-8d9e-bf24c68cbb72.png" alt="떼시스 트위터"></a>
-
-                                </i>
-
-                            </div>
-                    </div>
-
-                        <div class="sns_container"> <!--sns 이미지 박스들-->
-                            <div class="sns_img1"></div>
-                            <div class="sns_img2"></div>
-                            <div class="sns_img3"></div>
-                            <div class="sns_img4"></div>
-                            <div class="sns_img5"></div>
-                            <div class="sns_img6"></div>
-
-                        </div>
-                </div>
                 
-               
-            </section>   
-            <!--review_event_bg -->
-            <div class="review_event_bg">
-                <p><span>리뷰 이벤트</span><br>
-                제품 수령 후 예쁘게 일반/포토리뷰를 작성해 주세요!<br>베스트 리뷰로 선정되면, 5000포인트를 드립니다.
+            <p>자신과 타협하지 않고 더 나은 결과를 내기 위해,<br> 
+                고통스럽기도 하고 인내하는 시간을 거쳐 <br>
+                작업물을 만들어 내는것을 좋아합니다.</p>
+                
+                
+            <p>저는 요즘말로 존버 하는 사람입니다.<br>
+                자라나는 새싹이지만 누구보다 단단해질 <br>
+                믿고 맡길 수 있는 사람임을 보여드리겠습니다! 
                 </p>
-                <p>응모기간 : 2021.02.16. ~ 2021.03.14. 발표일 : 2021.03.14.</p>
-                <p><span>이벤트 응모방법</span><br>
-                    상품을 구매하신 후 응모 내용에 맞게 리뷰를 작성해주세요. 
-                    작성하신 리뷰는 자동으로 이벤트에 응모되고, 재미있고 유익한 리뷰를 남겨주신 분들께는 선정을 통해 포인트 혜택을 드립니다.</p>
-
-            </div>
-            
-         
-            <video muted autoplay loop playsinline>
-                <source src="https://user-images.githubusercontent.com/81498189/113159803-dc512100-9277-11eb-8870-2fcef8b36500.mp4" type="video/mp4">
-                <strong>Your browser does not support the video tag.</strong>
-              </video>
-                   
-
-             
-            <!--하단 큰 이미지 & 브랜드 설명-->
-            <section class="brand_info">
-
-                <div class="brand_info_txt">
-                <h3>FRAGRANCE MATERIAL</h3>
-
-                <p>향수의 본고장 프랑스와 미국,영국에 직접 조향 의뢰를 하여 수입한 글로벌 IFRA(국제 향료 협회)의 표준을 준수하는, FINE등급의 최상급 원료만을 사용하여 전문 조향사들에 의해 섬세하게 블랜딩 된 향으로 지속력이 좋습니다.</p>
-
-
-                <h3>HOW TO MAKE FRAGRANCE MORE CLEARLY</h3>
-
-                <p>떼시스는 PERFUME(20%)농도의 오일을 사용 부향률을 높혔습니다. 
-                개인마다 느끼는 정도가 다르므로 향의 강도의 차이는 느껴질 수 있습니다.<br>
-                사용 전, 직사광선이 없는 서늘한 곳에 약 2주일 정도 숙성시키면 
-                알코올 향이 줄어들고 본연의 향이 은은한 향기로 깊어집니다. </p>
-
-                <p>널리 알려진 유명 향수를 뗴시스만의 블랜딩으로 재해석하여 표현한 것으로 
-                오리지널 브랜드사의 레시피와는 아무런 관련성이 없습니다. </p>
             </div>
 
-            </section>
-    </main>
+            <p class="big_txt"> #.모두가 인정하는 <span>존버의 아이콘 </span></p>
 
-
-<!--푸터-->
-    <footer id="footer">
-        <div class="foot">
-            <p>이용약관  |  개인정보처리방침  |  사업자정보확인</p>
-            <p>상호: 주식회사 수디자인(사업자/법인사업자) | 대표: 김수진 | 개인정보관리책임자: 김수진| 사업자번호: 000-00-00000 | 통신판매: 2020-수원팔달-0000 |  주소: 경기도 수원시 장안구 율전동  (00000) | 전화: 010-4021-4150 | 이메일: snd01167@naver.com</p>
-            <p>&copy;이 디자인은 상업 적으로 이용되지 않았습니다.</p>
         </div>
-    </footer>
+
+        <div class="box2_2">
+            <div class="myimg"><img src="images/myimg.jpg" alt="내사진" width="420px"></div>
+        </div>
+    </section>
+</div>
 
 
+<div class="section" id="section2">
+    <section>
+        <div class="side_name">
+            <p>2</p>
+            <p>SKILLS</p>
+        </div>
 
-    <!--제이쿼리-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <div class="box3_1">
+            <p>
+                WHAT <span> I CAN </span>
+                <div class="sign">
+                    <span class="flicker">DO</span>
+                  </div>
+            </p>
+        </div>
 
-        <script>
+        <div class="box3_2">
+            <div class="box3_2_1">
 
-    var lastScrollTop = 0, delta = 15;
+                <div class="ani">
+                    <div class="object"></div>
+                </div>
 
-    $(window).scroll(function(){
-    var scrollTop = $(this).scrollTop() /* 스크롤바 수직 위치를 가져옵니다, 괄호 안에 값(value)이 있을 경우 스크롤바의 수직 위치를 정합니다. */
-    // Math.abs: 주어진 숫자의 절대값을 반환(return)합니다.
-    if(Math.abs(lastScrollTop - scrollTop) <= delta) // 스크롤 값을 받아서 ~
-    return; // ~ 리턴
+                <h3 class="do_list">1. HTML5 <br> 90%</h3>
+   
+                <ul>
+                    <li>웹사이트 구축</li>
+                    <li>웹표준,접근성 고려한 markup</li>
+                    <li>이미지,비디오 이해</li>
+                    <li>css,js 첨부</li>
+                    <li>디자인 코드화</li>
+                    <li>다양한 레이아웃 구조</li>
+                </ul>
+            </div>
 
-    if ((scrollTop > lastScrollTop) && (lastScrollTop>0)) {
-    	/* 화면에 나오지 않을 때, top값은 요소가 보이지 않을 정도로 사용해야함 */
-        $(".scroll_01").css("top","-164px");
-    } else {
-        $(".scroll_01").css("top","0px");
-    }
-    lastScrollTop = scrollTop;
-    });
+            <div class="box3_2_2">
+                <div class="ani">
+                    <div class="object"></div>
+                </div>
 
-        </script>
+                <h3 class="do_list">2. CSS3 <br> 90%</h3>
+   
+                <ul>
+                    <li>웹디자인 구현</li>
+                    <li>태그에 맞는 css 이해</li>
+                    <li>태그의 고유성격 이해</li>
+                    <li>flex 사용 </li>
+                    <li>grid 사용 </li>
+                    <li>이벤트,애니메이션 구현가능</li>
+                </ul>
 
+            </div>
+            <div class="box3_2_3">
+                <div class="ani">
+                    <div class="object"></div>
+                </div>
+
+                <h3 class="do_list">3. script <br> 70%</h3>
+   
+                <ul>
+                    <li>제이쿼리 사용</li>
+                    <li>GSAP 사용</li>
+                    <li>plugIn 사용</li>
+                    <li>이벤트,애니메이션 구현가능</li>
+                    <li>자바스크립트 (공부중)</li>
+                </ul>
+            </div>
+            <div class="box3_2_4">
+                
+                <div class="ani">
+                    <div class="object"></div>
+                </div>
+
+                <h3 class="do_list">4. XD  <br> 80%</h3>
+   
+                <ul>
+                    <li>어플리케이션 디자인</li>
+                    <li>xd 도구 사용</li>
+                    <li>프로토타입 사용</li>
+                    <li>어플 구조 구축</li>
+                    <li>공동작업 공유</li>
+                </ul>
+            </div>
+            <div class="box3_2_5">
+                <div class="ani">
+                    <div class="object"></div>
+                </div>
+
+                <h3 class="do_list">5. ILLUSTRATION <br> 90%</h3>
+   
+                <ul>
+                    <li>웹페이지 선 디자인</li>
+                    <li>일러스트 도구 사용</li>
+                    <li>클리핑 마스크 사용</li>
+                    <li>오브젝트 변형</li>
+                    <li>다양한 효과 사용</li>
+                    <li>포토샵 효과 사용</li>
+                </ul>
+            </div>
+            <div class="box3_2_6">
+                <div class="ani">
+                    <div class="object"></div>
+                </div>
+
+                <h3 class="do_list">6. PHOTOSHOP <br> 90%</h3>
+   
+                <ul>
+                    <li>자연스런 이미지 보완</li>
+                    <li>벡터 마스크 사용</li>
+                    <li>레이어 마스크 사용</li>
+                    <li>타임라인 사용</li>
+                    <li>스마트 오브젝트 사용</li>
+                    <li>펜툴 사용</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+</div>
+    
+
+
+<div class="section" id="section3">
+    <section>
+        <div class="side_name">
+            <p>3</p>
+            <p>WORKS</p>
+        </div>
+
+
+        
+        <!--컨텐츠 영역-->
+        <div class="box4_1">
+            <div class="box4_1_1"> 
+                <div class="box4_1_1_1">DESIGNED PROJECTS</div>
+                <div class="box4_1_1_2  align">
+                    <p>Project</p> <p>Year</p>
+                    <p>Discipline</p> <p>Explore</p>
+                </div>
+            </div>
+
+
+            <!--펼쳤다 접혔다 하는 메뉴-->
+            
+
+            <div class="box4_2" id="nav">
+                <div class="works_1 navg">
+                    <a href="second.html" class="works_bg sub" >
+                    <video  muted autoplay playsinline loop width="90%" > 
+                        <source src="images/work1.mp4" type="video/mp4">
+                      </video>
+                    </a>
+                    <div class="align title"> 
+                        <p>7일 다이어트 APP</p> <p>2021</p>
+                        <p>Redesign app application , Creative app application </p> <p class="button">View Project</p>
+                    </div>
+                </div>   
+                 
+                <div class="works_2 navg">
+
+                    <a href="second.html" class="works_bg sub" >
+                        <video  muted autoplay playsinline loop width="90%" > 
+                            <source src="images/work2.mp4" type="video/mp4">
+                          </video>
+                        </a>
+
+                    <div class="align title"> 
+                        <p>향수브랜드 떼시스</p> <p>2021</p>
+                        <p>Design website , 반응형</p> <p class="button">View Project</p>
+                    </div>
+                </div>   
+
+                <div class="works_3 navg">
+
+                    <a href="second.html" class="works_bg sub" >
+                        <video  muted autoplay playsinline loop width="90%" > 
+                            <source src="images/work3.mp4" type="video/mp4">
+                          </video>
+                        </a>
+
+                    <div class="align title"> 
+                        <p>FOLKLORE</p> <p>2020</p>
+                        <p>Redesign Web page, practice illustration, photoshop tools</p> <p class="button">View Project</p>
+                    </div>
+                </div>  
+
+                <div class="works_4 navg">
+
+                    <a href="second.html" class="works_bg sub" >
+                        <video  muted autoplay playsinline loop width="90%" > 
+                            <source src="images/work4.mp4" type="video/mp4">
+                          </video>
+                        </a>
+
+                    <div class="align title"> 
+                        <p>하나투어 프로모션</p> <p>2020</p>
+                        <p>Redesign promotion page, practice illustration, photoshop tools</p> <p class="button">View Project</p>
+                    </div>
+                </div>  
+
+                <div class="works_5 navg">
+
+                    <a href="second.html" class="works_bg sub" >
+                        <video  muted autoplay playsinline loop width="90%" > 
+                            <source src="images/work5.mp4" type="video/mp4">
+                          </video>
+                        </a>
+
+                    <div class="align title"> 
+                        <p>텐바이텐 프로모션</p> <p>2020</p>
+                        <p>practice illustration, photoshop tools</p> <p class="button">View Project</p>
+                    </div>
+                </div>   
  
+
+                <div class="works_6 navg">
+                    <a href="second.html" class="works_bg sub"> </a>
+                    <div class="align title"> 
+                        <p>준비중</p> <p>2021</p>
+                        <p>멋진 결과물 기다려 주세요.</p> <p class="button">View Project</p>
+                    </div>
+                </div>   
+
+       
+
+
+
+            </div>
+        </div>
+ 
+    </section>
+</div>
+
+
+
+
+<div class="section" id="section4">
+    <section>
+        <div class="side_name">
+            <p>4</p>
+            <p>CONTACT</p>
+        </div>
+    
+    
+
+    <div class="box5_1">
+
+        <div class="container5_1">
+            <h2>김수진</h2>
+            <p><span>Email</span><br>
+               Snd01167@naver.com</p>
+            <p><span>Number</span><br>
+                010 - 4021 - 4150</p>
+             <div class="box5_1_1">
+                <p> I. Designed by<br>
+                    kim su jin</p>
+
+                <p> II. Development by<br>
+                   kim su jin</p>
+                    
+              <p> III. Typography<br>
+                  gmarket sans</p>
+             </div>
+        </div>
+    </div>
+
+        <div class="box5_2">
+            <div class="box5_2_1">
+                <div class="heart">
+
+                    <div class="heart_top">
+                        <img src="images/heart_left.png" alt="하트오브제 왼쪽" height="421.193 px">
+                        <img src="images/heart_right.png" alt="하트오브제 오른쪽" height="421.193px"> 
+                    </div>
+
+                        <img src="images/heart_bottom.png" alt="하트오브제 밑쪽" height="314.283 px"> 
+                </div>
+
+                    <div class="box5_2_1_1">
+                        <p class="me_circle">I AM NOW</p>
+                        <p>+</p>
+                        <p class="me_box">I WILL BE</p>
+                        <P>=</P>
+                        <P>me</P>
+                    </div>
+
+            </div>
+            <div class="box5_2_2">
+                <MarQuee scrollamount=10>소중한 시간 내주셔서 감사합니다. 부족한 부분이 있더라도 노력으로 채우겠습니다.
+                </MarQuee>
+            </div>
+        </div>
+
+    </section>
+</div>
+
+</div>
+
+<script>
+
+
+new fullpage('#fullpage', {
+
+  autoScrolling:true,
+    scrollHorizontally: true
+});
+
+//adding the action to the button
+$(document).on('click', '#moveTo', function(){
+  fullpage_api.moveTo(1);
+});
+
+$(document).on('click', '#button1', function(){
+  fullpage_api.moveTo(2);
+});
+
+$(document).on('click', '#button2', function(){
+  fullpage_api.moveTo(3);
+});
+
+$(document).on('click', '#button3', function(){
+  fullpage_api.moveTo(4);
+});
+
+$(document).on('click', '#button4', function(){
+  fullpage_api.moveTo(5);
+});
+
+
+
+
+
+
+
+
+
+</script>
+
+
 </body>
 </html>
