@@ -48,41 +48,24 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 .box_1 { display: flex; flex-direction: column; justify-content: space-between; padding: 8% 0; padding: 0;  }
 .box_1 .box_title h2 { font-size: 15.417vw; margin:0; } 
 .box_1 .box_when ul { padding-left: 20px; font-size: 17px; line-height: 22px;}
+#section1 .container .container_2 .box2 { box-shadow:6px 6px 15px -2px rgba(104,65,14,0.34); }
 
 /*섹션2*/
-#section1 .container .container_1 .box1 { background:url(https://user-images.githubusercontent.com/81498189/113143119-bd965e80-9266-11eb-947f-30d51ace4320.jpg) no-repeat 50% / cover; border-radius: 20px;  box-shadow:
-  0 0.9px 1.9px -79px rgba(0, 0, 0, 0.047),
-  0 2.3px 4.9px -79px rgba(0, 0, 0, 0.067),
-  0 4.8px 9.9px -79px rgba(0, 0, 0, 0.083),
-  0 9.9px 20.4px -79px rgba(0, 0, 0, 0.103),
-  0 27px 56px -79px rgba(0, 0, 0, 0.15)
-;}
+#section1 .container .container_1 .box1 { background:url(https://user-images.githubusercontent.com/81498189/113143119-bd965e80-9266-11eb-947f-30d51ace4320.jpg) no-repeat 50% / cover; border-radius: 20px;}
 /*섹션3*/
 #section2 .container .container_1 .box1 { display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
 #section2 .container .container_1 .box1 .img_box1 { width: 80%; height: 60%; display: flex; flex-direction:row; flex-wrap: wrap;   }
 #section2 .container .container_1 .box1 .img_box2 { width: 80%; height: 40%;  background: url(https://user-images.githubusercontent.com/81498189/113143284-edddfd00-9266-11eb-81ec-92c4f2e018c8.png) no-repeat 50% / contain;}
 
 #section2 .container .container_1 .box1 .img_box1 .img_box { width: 50%; height: 50%; padding:2%; box-sizing: border-box; }
-#section2 .container .container_1 .box1 .img_box1 .img_box img {  width: 100%; height: 100%;  object-fit: cover; object-position: center; border-radius: 20px;  box-shadow:
-  0 0.9px 1.9px -79px rgba(0, 0, 0, 0.047),
-  0 2.3px 4.9px -79px rgba(0, 0, 0, 0.067),
-  0 4.8px 9.9px -79px rgba(0, 0, 0, 0.083),
-  0 9.9px 20.4px -79px rgba(0, 0, 0, 0.103),
-  0 27px 56px -79px rgba(0, 0, 0, 0.15)
-;}
+#section2 .container .container_1 .box1 .img_box1 .img_box img {  width: 100%; height: 100%;  object-fit: cover; object-position: center; border-radius: 20px;}
 
 
 
 /*섹션4*/
 #section3 section { height: max-content;}
-#section3 .container .container_1 .box1 { object-position: top; display: flex; justify-content: center; align-items: center;  }
-#section3 .container .container_1 .box1  video { width: 100%;   border-radius: 20px;  box-shadow:
-  0 0.9px 1.9px -79px rgba(0, 0, 0, 0.047),
-  0 2.3px 4.9px -79px rgba(0, 0, 0, 0.067),
-  0 4.8px 9.9px -79px rgba(0, 0, 0, 0.083),
-  0 9.9px 20.4px -79px rgba(0, 0, 0, 0.103),
-  0 27px 56px -79px rgba(0, 0, 0, 0.15)
-; object-fit: contain;}
+#section3 .container .container_1 .box1 { object-position: top; display: flex; justify-content: center; align-items: center; border-radius: 20px;  }
+#section3 .container .container_1 .box1  video { width: 100%;   border-radius: 20px;  object-fit: contain;}
 
 .typo {  display: flex; flex-direction: row; justify-content:flex-start; line-height: 24px; font-size: 17px; padding-top: 2vh; padding-bottom: 2vh; width:90% }
 
@@ -115,8 +98,11 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 #section3 .container { height: fit-content;}
 
 
+
 /*섹션5*/
-#section4 .container .container_1 .box1 { background-color: rgb(0, 0, 0);}
+#section4 .container .container_1 .box1 { border-radius: 20px; }
+#section4 .container .container_1 .box1 video{ object-fit: cover; object-position: 45%; height: 100%; border-radius: 20px}
+
 
 
 /*섹션6*/
@@ -124,9 +110,8 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 #section5 .container .container_2 .box2 .button { width: 100%; height: 80%; display: flex; flex-direction: column; justify-content:center; align-items: center;} 
 #section5 .container .container_2 .box2 {display: flex; flex-direction: column; justify-content: center;}
 #section5 .container .container_2 .box2 a { width: 200px; height:30px; border: 2px solid black; border-radius: 300px; color: black; text-decoration: none; text-align: center; line-height: 30px; font-family: 'GmarketSansBold'; font-size: 17px; }
-#section5 .container .container_2 .box2 a:hover { background-color:black; color: white;}
+#section5 .container .container_2 .box2 a:hover { background-color:#F39820; color: white;}
 .button p { font-size: 17px; margin-top: 5%;}
-
 
 
 
