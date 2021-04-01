@@ -89,14 +89,14 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 .container>.container_2 >.box2>p { font-size: 17px; line-height: 24px;}
 .container>.container_2 >.box2>ol { font-size: 17px; line-height: 24px;}
 
-#section3 .container_2 .typo .typo_kind1_1 div:nth-child(1) { font-family: 'AppleSDGothicNeoL'; }
-#section3 .container_2 .typo .typo_kind1_1 div:nth-child(2) { font-family: 'AppleSDGothicNeoM'; }
-#section3 .container_2 .typo .typo_kind1_1 div:nth-child(3) { font-family: 'AppleSDGothicNeoEB'; }
-#section3 .container_2 .typo .typo_kind1_1 div:nth-child(4) { font-family: 'AppleSDGothicNeoH'; }
+#section3 .container_2 .typo .typo_kind1_1 div:nth-child(2) { font-family: 'AppleSDGothicNeoL'; }
+#section3 .container_2 .typo .typo_kind1_1 div:nth-child(3) { font-family: 'AppleSDGothicNeoM'; }
+#section3 .container_2 .typo .typo_kind1_1 div:nth-child(4) { font-family: 'AppleSDGothicNeoEB'; }
+#section3 .container_2 .typo .typo_kind1_1 div:nth-child(5) { font-family: 'AppleSDGothicNeoH'; }
 
-#section3 .container_2 .typo .typo_kind1_2 div:nth-child(1) { font-family: 'GmarketSansLight'; }
-#section3 .container_2 .typo .typo_kind1_2 div:nth-child(2) { font-family: 'GmarketSansMedium'; }
-#section3 .container_2 .typo .typo_kind1_2 div:nth-child(3) { font-family: 'GmarketSansBold'; }
+#section3 .container_2 .typo .typo_kind1_2 div:nth-child(2) { font-family: 'GmarketSansLight'; }
+#section3 .container_2 .typo .typo_kind1_2 div:nth-child(3) { font-family: 'GmarketSansMedium'; }
+#section3 .container_2 .typo .typo_kind1_2 div:nth-child(4) { font-family: 'GmarketSansBold'; }
 
 #section3 .container_2 .typo >.typo_kind3_1 { font-family: 'GmarketSansMedium';}
 
