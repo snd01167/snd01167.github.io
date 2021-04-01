@@ -84,10 +84,10 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
   0 27px 56px -79px rgba(0, 0, 0, 0.15)
 ; object-fit: contain;}
 
-.typo {  display: flex; flex-direction: row; justify-content:flex-start; line-height: 22px; font-size: 17px; padding-top: 2vh; padding-bottom: 2vh; width:90% }
+.typo {  display: flex; flex-direction: row; justify-content:flex-start; line-height: 24px; font-size: 17px; padding-top: 2vh; padding-bottom: 2vh; width:90% }
 
-.container>.container_2 >.box2>p { font-size: 17px; line-height: 22px;}
-.container>.container_2 >.box2>ol { font-size: 17px; line-height: 22px;}
+.container>.container_2 >.box2>p { font-size: 17px; line-height: 24px;}
+.container>.container_2 >.box2>ol { font-size: 17px; line-height: 24px;}
 
 #section3 .container_2 .typo .typo_kind1_1 div:nth-child(1) { font-family: 'AppleSDGothicNeoL'; }
 #section3 .container_2 .typo .typo_kind1_1 div:nth-child(2) { font-family: 'AppleSDGothicNeoM'; }
@@ -98,11 +98,14 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 #section3 .container_2 .typo .typo_kind1_2 div:nth-child(2) { font-family: 'GmarketSansMedium'; }
 #section3 .container_2 .typo .typo_kind1_2 div:nth-child(3) { font-family: 'GmarketSansBold'; }
 
+#section3 .container_2 .typo >.typo_kind3_1 { font-family: 'GmarketSansMedium';}
+
+
 #section3 .container_2 .typo ul { list-style: none; padding: 0; }
 
 #section3 .container_2 img { width: 300px; object-fit: contain; }
 #section3 .container_2 .typo:nth-child(2) h4 { margin: 3% 0 3%; color: #F39820;}
-#section3 .box2 ol span { display: block; font-family: 'GmarketSansBold';}
+#section3 .box2 ol span { display: block; font-family: 'GmarketSansBold'; }
 #section3 .container_2 .typo >*{ padding-left: 4vw;}
 
 #section3 .container_2 .box2 { padding: 5vh 3%; height: fit-content; }
@@ -153,7 +156,7 @@ section> .side_name p { font-size: 30px; line-height: 50px;}
         .container_2  .box2 h3 { font-size: 4.5vw;}
         .container>.container_2 >.box2 { height: 90%;}
         .container>.container_2 >.box1 { height: 90%;}
-         .typo { font-size: 14px; line-height: 16px; }
+         .typo { font-size: 14px; line-height: 20px; }
          
   
         /*섹션4 */
@@ -240,6 +243,7 @@ section> .side_name p { font-size: 30px; line-height: 50px;}
     #section3 .container_2 .box2 ol li:nth-of-type(3) .typo >div:nth-of-type(2) { padding-left: 10px; }
     #section3 .container_2 .box2 ol li:nth-of-type(3) .typo >div:last-child{ padding-bottom:0; padding-left: 10px;}
     #section3 .container_2 .box2 ol li:nth-child(1) .typo img{ width:200px; height: auto; object-fit: contain; padding-top: 0;}
+    
 
     #section3 .container_2 .box2 { padding: 5vh 0; }
 
