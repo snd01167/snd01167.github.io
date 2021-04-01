@@ -239,7 +239,7 @@ section> .side_name p { font-size: 30px; line-height: 50px;}
     #section3 .container_2 .box2 ol li:nth-of-type(3) .typo >div { width: 123px; box-sizing: border-box; padding-bottom:  6%;}
     #section3 .container_2 .box2 ol li:nth-of-type(3) .typo >div:nth-of-type(2) { padding-left: 10px; }
     #section3 .container_2 .box2 ol li:nth-of-type(3) .typo >div:last-child{ padding-bottom:0; padding-left: 10px;}
-    #section3 .container_2 .box2 ol li:nth-child(1) .typo img{ width: 50%; object-fit: contain; padding-top: 0;}
+    #section3 .container_2 .box2 ol li:nth-child(1) .typo img{ width:200px; height: auto; object-fit: contain; padding-top: 0;}
 
     #section3 .container_2 .box2 { padding: 5vh 0; }
 
