@@ -153,13 +153,23 @@ https://user-images.githubusercontent.com/81498189/113149001-80819a80-926d-11eb-
 
 https://user-images.githubusercontent.com/81498189/113159803-dc512100-9277-11eb-8870-2fcef8b36500.mp4
 
-<!--워크 folklore-->
+<!--워크2 folklore-->
 ![folklore](https://user-images.githubusercontent.com/81498189/113375926-79f93d00-93ab-11eb-9325-59b6aa743453.jpg)
 
 ![folklore_original](https://user-images.githubusercontent.com/81498189/113379103-939e8280-93b3-11eb-9bbc-dca046cfee3c.jpg)
 
 
+<!--워크3 하나투어 -->
+![hana](https://user-images.githubusercontent.com/81498189/113387949-44af1800-93c8-11eb-964b-ea7893551163.jpg)
 
+![hana_christmas](https://user-images.githubusercontent.com/81498189/113387958-4678db80-93c8-11eb-8e61-6a32d1d83d54.jpg)
+
+![hana_original](https://user-images.githubusercontent.com/81498189/113387960-47117200-93c8-11eb-9aa3-a3ca0e5faa96.jpg)
+
+<!--워크3 텐바이텐 -->
+![ten_by_ten](https://user-images.githubusercontent.com/81498189/113387962-47aa0880-93c8-11eb-88e4-605214a64197.jpg)
+
+![ten_by_ten_original](https://user-images.githubusercontent.com/81498189/113387963-48429f00-93c8-11eb-97df-83d4c296db88.jpg)
 
 
 
