@@ -112,7 +112,7 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 #section5 .container .container_2 .box2 a { width: 200px; height:30px; border: 2px solid black; border-radius: 300px; color: black; text-decoration: none; text-align: center; line-height: 30px; font-family: 'GmarketSansBold'; font-size: 17px; }
 
 #section5 .container .container_2 .box2 a:hover { background-color:#F39820; color: white;}
-.button p { font-size: 17px; margin-top: 5%;}
+.button p { font-size: 17px; }
 
 
 
