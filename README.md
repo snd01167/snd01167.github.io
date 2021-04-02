@@ -64,6 +64,8 @@ https://user-images.githubusercontent.com/81498189/113149001-80819a80-926d-11eb-
 <!--워크 0 7일다이어트-->
 ![app_bg](https://user-images.githubusercontent.com/81498189/113372256-339fe000-93a3-11eb-8106-d0f0c032c69c.jpg)
 
+![app_7days_bg](https://user-images.githubusercontent.com/81498189/113393260-606aec00-93d1-11eb-8706-2dd71919f2ce.jpg)
+
 
 <!--워크1 떼시스-->
 
@@ -172,7 +174,8 @@ https://user-images.githubusercontent.com/81498189/113159803-dc512100-9277-11eb-
 ![ten_by_ten_original](https://user-images.githubusercontent.com/81498189/113387963-48429f00-93c8-11eb-97df-83d4c296db88.jpg)
 
 
-<!--last bg-->
+
+
 
 
 
