@@ -61,7 +61,11 @@ https://user-images.githubusercontent.com/81498189/113176304-49b87e00-9287-11eb-
 
 https://user-images.githubusercontent.com/81498189/113149001-80819a80-926d-11eb-9a04-4a4c611dca6d.mp4
 
-<!--워크1-->
+<!--워크 0 7일다이어트-->
+![app_bg](https://user-images.githubusercontent.com/81498189/113372256-339fe000-93a3-11eb-8106-d0f0c032c69c.jpg)
+
+
+<!--워크1 떼시스-->
 
 
 ![best4](https://user-images.githubusercontent.com/81498189/113159080-4c12dc00-9277-11eb-99ee-5523f86ac2e0.jpg)
