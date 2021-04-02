@@ -167,7 +167,7 @@ https://user-images.githubusercontent.com/81498189/113159803-dc512100-9277-11eb-
 ![hana_original](https://user-images.githubusercontent.com/81498189/113387960-47117200-93c8-11eb-9aa3-a3ca0e5faa96.jpg)
 
 <!--워크3 텐바이텐 -->
-![ten_by_ten](https://user-images.githubusercontent.com/81498189/113387962-47aa0880-93c8-11eb-88e4-605214a64197.jpg)
+![ten_by_ten](https://user-images.githubusercontent.com/81498189/113389742-82fa0680-93cb-11eb-9c21-40cc90ce0401.jpg)
 
 ![ten_by_ten_original](https://user-images.githubusercontent.com/81498189/113387963-48429f00-93c8-11eb-97df-83d4c296db88.jpg)
 
