@@ -45,7 +45,7 @@ section> .side_name { width:68px; height: 100%; background-color: #F1EFED; borde
 .intro_1 {  height: 50px; width:100%;  margin-top: 50px; padding-right: 4%; text-align: end; line-height: 50px; border-bottom: 2.5px solid black; font-size: 17px; box-sizing: border-box;}
 .box_img { width: 45%; height:100%; overflow: hidden; }
 .box_img img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
-.box_1 { display: flex; flex-direction: column; justify-content: space-between; padding: 8% 0;   }
+.box_1 { display: flex; flex-direction: column; justify-content: space-between; padding:0;   }
 .box_1 .box_title h2 { font-size: 12vw; margin:0; } 
 .box_1 .box_when ul { padding-left: 20px; font-size: 17px; line-height: 22px;}
 
