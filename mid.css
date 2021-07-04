@@ -1,0 +1,777 @@
+@charset "utf-8";
+
+@media screen and (min-width: 0px) {
+
+/*공통*/
+h2 {  
+  font-family: 'Grotesk'; 
+  font-size: 35px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  margin:0 0 4vh; 
+}
+/*폰트*/
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*헤더*/
+.scroll_01 { 
+    width: 100%; 
+    height: 70px;
+    position:fixed; 
+    top:0; right: 0; 
+    z-index: 1000;
+    transition:0.3s;
+}
+header { 
+    height: 100%;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+header h1 {
+    margin:0;
+}
+
+header a { 
+    font-family: 'Grotesk'; 
+    font-size: 35px;
+    color: white;
+}
+
+/*헤더 안에 메뉴 아이콘*/
+  .hamburger {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .hamburger div {
+    align-self: flex-end;
+    height: 6px;
+    border-radius: 50px;
+    width: 100%;
+    background: white;
+  }
+  .hamburger .meat {
+    width: 80%;
+    transition: all 200ms ease-in-out;
+  }
+  .hamburger .bottom-bun {
+    width: 50%;
+    transition: all 400ms ease-in-out;
+  }
+  .hamburger:hover div {
+    width: 100%;
+  }
+  .hamburger:hover .top-bun {
+    -webkit-animation: burger-hover 1s infinite ease-in-out alternate;
+            animation: burger-hover 1s infinite ease-in-out alternate;
+  }
+  .hamburger:hover .meat {
+    -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
+            animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
+  }
+  .hamburger:hover .bottom-bun {
+    -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
+            animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
+  }
+  
+  @-webkit-keyframes burger-hover {
+    0% {
+      width: 100%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes burger-hover {
+    0% {
+      width: 100%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+/*섹션1*/
+.main_slide { 
+    width: 100%;
+    height: 57vh;
+    background:url(images/main_section_1_img1.jpg) right 100%/ cover;
+}
+.main_txt { 
+    width: 100%;
+    height: auto;
+    background-color:#00473e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15% 10% 20%;
+    box-sizing: border-box;
+}
+.main_txt span:nth-child(1) {
+    font-family: 'Grotesk';
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 6%;
+    color: white;
+ }
+ .main_txt span:nth-child(2) {
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    line-height: 37.5px;
+    padding-bottom: 6%;
+    color: #faae2b;
+ }
+ .main_txt span:nth-child(3) {
+    font-family: 'Bronova Regular';
+    font-size: 18.5px;
+    line-height: 22.5px;
+    color: white;
+ }
+
+
+ /*섹션2*/
+ section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -6%;
+    
+ }
+ section:nth-of-type(2) .card {
+     width: 90%;
+     padding-bottom: 1.5vh;
+     height:fit-content;
+     position: relative;
+     
+ }
+ section:nth-of-type(2)>.card>.card_bg{
+    width: 100%;
+    height: calc( 90vw * 1.18 );
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: card_bg 10s infinite both;
+} 
+section:nth-of-type(2)>.card>.card_txt{
+    width: 100%;
+    height: calc( 90vw * 1.18 );
+} 
+@keyframes card_bg { 
+    from {
+        opacity: 1;
+        }
+
+    40% {
+        opacity: 1;
+                    }
+    50% {
+        opacity: 0;
+                    }
+    90% {
+        opacity: 0;
+                    }
+
+    to {
+        opacity: 1;
+                    }    
+ }
+
+ section:nth-of-type(2) .card:nth-child(1) .card_bg { 
+     background:url(images/main_section_banner_1.jpg) no-repeat 50%/ cover;
+ }
+ section:nth-of-type(2) .card:nth-child(2) .card_bg { 
+    background:url(images/main_section_banner_2.jpg) no-repeat 50%/ cover;
+}
+section:nth-of-type(2) .card:nth-child(3) .card_bg { 
+    background:url(images/main_section_banner_3.jpg) no-repeat 50%/ cover;
+}
+.card_txt {
+    padding: 10%;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-start;
+    overflow: hidden;
+    position: relative;
+}
+
+/*첫번쨰 텍스트 카드*/ 
+section:nth-of-type(2) .card:nth-child(1) .card_txt { 
+    background-color: #faae2b;
+}
+/*1번째 카드 무늬*/
+section:nth-of-type(2) .card:nth-child(1) .card_txt .pattern1 {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    background-color: #b17b1d;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    animation: card_txt1 7s infinite both;
+}
+
+@keyframes card_txt1 { 
+    from {
+        transform: scale(1);
+        }
+
+    30% {
+        transform: scale(1);
+                    }
+    50% {
+      transform: scale(1.3);
+                    }
+    80% {
+      transform: scale(1.3);
+                    }
+
+    to {
+      transform: scale(1);
+                    }    
+ }
+
+/*2번쨰 텍스트 카드*/ 
+section:nth-of-type(2) .card:nth-child(2) .card_txt { 
+  background-color: #fa5246;
+}
+
+/*2번째 카드 무늬*/
+section:nth-of-type(2) .card:nth-child(2) .card_txt .pattern2 svg{
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 5vw;
+  left: 0;
+  overflow: hidden;
+}
+
+section:nth-of-type(2) .card:nth-child(2) .card_txt .pattern2 path {
+  stroke: #f88982;
+  stroke-width: 25px;
+  stroke-linecap: round;
+  fill: none;
+  overflow: hidden;
+}
+
+
+
+/*3번쨰 텍스트 카드*/ 
+section:nth-of-type(2) .card:nth-child(3) .card_txt { 
+  background-color: #ffa8ba;
+   margin-bottom: 7vh;
+}
+/*3번째 카드 무늬*/
+section:nth-of-type(2) .card:nth-child(3) .card_txt .pattern3 {
+  width: 18vh;
+  height: 18vh; 
+  /* border-radius: 50%; */
+  background-color: #00473e;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  animation: card_txt2 10s infinite both;
+}
+
+@keyframes card_txt2 { 
+  from {
+      transform: rotate(30deg);
+      }
+
+  15% {
+      transform: rotate(60deg);
+                  }
+  30% {
+    transform: rotate(90deg);
+                  }
+  45% {
+    transform: rotate(120deg);
+                  }
+  60% {
+    transform: rotate(150deg);
+                  }
+  75% {
+    transform: rotate(180deg);
+                 }
+  to {
+    transform: rotate(30deg);
+                  }    
+}
+
+
+/*텍스트 카드 안에 p (=카드 안 동일)*/
+.card_txt p:nth-of-type(1) { 
+    font-family: 'GmarketSansMedium';
+    font-size: 20px;
+}
+
+.card_txt p:nth-of-type(2) { 
+    font-family: 'GmarketSansLight';
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+/*섹션3*/
+section:nth-of-type(3) {
+  background-color: #00473e;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7vh 0;
+}
+section:nth-of-type(3) .product_img {
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+}
+section:nth-of-type(3) .product_img img {
+  width: 100%;
+  height:  90vw;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 3vh 0;
+}
+
+section:nth-of-type(3) .product_img img:hover {
+  transform:scale(1.2);
+}
+
+section:nth-of-type(3) .product_txt {
+  width: 90%;
+  height: fit-content;
+}
+
+/*섹션4*/
+
+/*사진*/
+section:nth-of-type(4) .about_us_bg {
+  width: 100%;
+  height: 40vh;
+  background: url(images/company_img.jpg) no-repeat 50% / cover;
+  background-attachment: fixed;  
+}
+/*텍스트 카드*/
+section:nth-of-type(4) .about_us_txt {
+  width:90%;
+  height:auto;
+  margin:-6% auto 1.5vh;
+  background-color: #ffa8ba;
+  padding:5% 10%;
+  box-sizing: border-box;
+}
+section:nth-of-type(4) .about_us_txt h2 {
+  margin: 10% 0 15%;
+}
+section:nth-of-type(4) .about_us_txt p{ 
+  font-size: 15px; 
+  font-family: 'GmarketSansLight';
+  line-height: 180%;
+  margin-bottom: 10%;
+  color: white;
+}
+
+section:nth-of-type(4) .about_us_txt a{ 
+  font-size: 25px;
+  font-family: 'PriborgSans';
+  color: #fa5246;
+  width: 187px;
+  height: 54px;
+  border: 3px solid #fa5246;
+  text-align: center;
+  line-height: 54px;
+  border-radius: 50px;
+  padding:0 10px;
+}
+section:nth-of-type(4) .about_us_txt a:hover {
+  background-color: #faae2b9d;
+  color: #fa5246;
+}
+
+
+/*비디오*/
+section:nth-of-type(4) .about_us_video {
+  position: relative; 
+  padding-bottom:56.25%;
+  height:0;
+  overflow: hidden;
+  max-width:100%; 
+} 
+section:nth-of-type(4) .about_us_video iframe {
+  position:absolute;
+  top:0; 
+  left:5%;
+  width:90%; 
+  height:90%; 
+}
+
+/*푸터*/
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #00473e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  padding: 10% 10% 20%;
+  box-sizing: border-box;
+}
+
+footer>div {
+  width: 80%;
+  font-family: 'GmarketSansLight';
+}
+footer>div>span {
+  width: 100%;
+  font-size: 14px;
+  line-height: 130%;
+}
+footer h3 {
+  font-size: 25px;
+  font-family: 'Krona One', sans-serif;
+  padding: 15% 0;
+}
+footer span{
+  display: block;
+}
+
+footer div:nth-child(1) h3{
+  color:#faae2b;
+}
+footer div:nth-child(2) h3{
+  color:#fa5246;
+}
+footer div:nth-child(3) h3{
+  color:#ffa8ba;
+}
+
+
+footer>div:nth-child(1) span:nth-of-type(1){
+   font-size: 20px;
+   font-family: 'PriborgSans';
+   text-decoration: underline;
+  line-height: 130%;
+}
+footer>div:nth-child(2) span:nth-of-type(1){
+  font-size: 15px;
+  font-family: 'GmarketSansMedium';
+  text-decoration: underline;
+line-height: 130%;
+}
+
+/*50%*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 575px) {
+/*65%*/
+    /*헤더*/
+     header { 
+        padding: 0 30px;
+     }
+    
+     .scroll_01 { 
+        height: 90px;
+     }
+    
+    /*섹션1*/
+    .main_slide { 
+    height: 70vh;
+    }
+     .main_txt { 
+        width: 80%;
+        margin-top:-50px;
+        padding: 8% 10% 15%;
+     }
+    
+     .main_txt span:nth-child(1) {
+        font-size: 45.5px;
+        line-height: 52px;
+        padding-bottom: 4%;
+     }
+     .main_txt span:nth-child(2) {
+        font-size: 39px;
+        line-height: 48.75px;
+        padding-bottom: 4%;
+     }
+     .main_txt span:nth-child(3) {
+        font-size: 24.05px;
+        line-height: 29.25px;
+     }
+    
+     /*섹션2*/
+     section:nth-of-type(2) .card {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+     section:nth-of-type(2) .card .card_bg{
+        width: calc( 50% - 0.75vh);
+        height: calc( 48vw * 1.18 );
+        position:unset;
+        animation:unset;
+    } 
+    section:nth-of-type(2) .card .card_txt{
+        width: calc( 50% - 0.75vh );
+        height: calc( 48vw * 1.18 );
+    } 
+    
+    .card_txt {
+        padding: 5%;
+        box-sizing: border-box;
+        color: white;
+    }
+    /*첫번째 카드 무늬*/
+    /*1번째 카드 무늬*/
+section:nth-of-type(2) .card:nth-child(1) .card_txt .pattern1 {
+  width: 25vw   ;
+  height: 25vw   ; 
+} 
+
+
+/*2번째 카드 무늬*/
+section:nth-of-type(2) .card:nth-child(2) .card_txt .pattern2 svg{
+  top: 5vw;
+  left: 0vh;
+}
+    /*섹션3*/
+    section:nth-of-type(3) .product_img {
+      justify-content:space-between;
+    }
+    section:nth-of-type(3) .product_img img {
+      width: 45%;
+      height:  40vw;
+    }
+    /*섹션4*/
+
+    /*텍스트*/
+    section:nth-of-type(4) .about_us_txt h2 {
+      margin: 5% 0 10%;
+    }
+    section:nth-of-type(4) .about_us_txt p{ 
+      font-size: 20px; 
+      margin-bottom: 5%;
+    }
+    
+    /*푸터*/
+
+    footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:space-between;
+     padding: 5% 10%;
+     max-height: 60vh;
+
+}
+footer>div {
+  width: 45%;
+  height: 50%;
+  font-size: 14px;
+  line-height: 150%;
+}
+footer h3 {
+  padding:10% 0;
+}
+
+footer>div:nth-child(1) span:nth-of-type(1){
+   font-size: 30px;
+   line-height: 150%;
+}
+footer>div:nth-child(2) span:nth-of-type(1){
+  font-size: 25px;
+  line-height: 150%;
+}        
+
+    
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 990px) {
+/*100%*/
+/*헤더*/
+ header { 
+    padding: 0 30px;
+ }
+
+ .scroll_01 { 
+    height: 90px;
+ }
+
+/*섹션1*/
+    
+  .main_slide { 
+    height: 85vh;
+ }
+
+ .main_txt { 
+    width: 80%;
+    margin-top:-50px;
+    padding: 5% 10% 10%;
+ }
+
+ .main_txt span:nth-child(1) {
+    font-size: 70px;
+    line-height: 80px;
+    padding-bottom: 4%;
+ }
+ .main_txt span:nth-child(2) {
+    font-size: 60px;
+    line-height: 75px;
+    padding-bottom: 4%;
+ }
+ .main_txt span:nth-child(3) {
+    font-size: 37px;
+    line-height: 45px;
+ }
+/*섹션2*/
+ .card_txt p:nth-of-type(1) { 
+    font-family: 'GmarketSansMedium';
+    font-size: 25px;
+}
+
+.card_txt p:nth-of-type(2) { 
+    font-family: 'GmarketSansLight';
+    font-size: 17.5px;
+    padding-top: 2vh;
+}
+section:nth-of-type(2) .card {
+    width: 70%;
+}
+section:nth-of-type(2) .card .card_bg{
+    width: calc( 50% - 0.75vh);
+    height: calc( 35vw * 1.18 );
+} 
+section:nth-of-type(2) .card .card_txt{
+    width: calc( 50% - 0.75vh);
+    height: calc( 35vw * 1.18 );
+} 
+
+
+
+/*섹션3*/
+section:nth-of-type(3) .product_img {
+  width: 70%;
+}
+section:nth-of-type(3) .product_img img {
+  width: 30%;
+  height: 21vw;
+}
+
+
+/*섹션4*/
+    /*텍스트 카드*/
+    section:nth-of-type(4) .about_us_txt {
+      width:70%;
+      height:auto;
+      margin:-6% auto 1.5vh;
+      background-color: #ffa8ba;
+      padding:5% 10%;
+      box-sizing: border-box;
+    }
+    /*비디오*/
+    section:nth-of-type(4) .about_us_video {
+      position: relative; 
+      padding-bottom:56.25%;
+      height:0;
+      overflow: hidden;
+      max-width:100%; 
+    } 
+    section:nth-of-type(4) .about_us_video iframe {
+      position:absolute;
+      top:0; 
+      left:15%;
+      width:70%; 
+      height:70%; 
+    }
+
+
+/*푸터*/
+
+footer {
+padding: 5% 15%;
+max-height: 45vh;
+ }
+ footer>div {
+  width: 30%;
+ }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1500px) {
+  /*섹션1*/
+      
+    .main_slide { 
+      height: 100vh;
+   }
+
+   /*섹션2*/
+   /*3번째 카드 무늬*/
+    section:nth-of-type(2) .card:nth-child(3) .card_txt .pattern3 {
+    width: 25vh;
+    height: 25vh; 
+    }
+
+
+
+  }

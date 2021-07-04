@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*웹폰트를 사용하기 위해 사전설정 작업*/
+
+@charset "utf-8";
+
+/*웹폰트를 사용하기 위해 사전설정 작업*/
+
+
+
+-------------------------------------
+
+/*'PriborgSans'*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'PriborgSans';
+    src: url('fonts/PriborgSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+------------------------------
+
+
+/*'KronaOne-Regular'*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'KronaOne-Regular';
+    src: url('fonts/KronaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+------------------------------
+
+
+
+/*'Grotesk*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'Grotesk';
+     src: url('fonts/Grotesk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+---------------------------------
+
+/*'Bronova Bold*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'Bronova Bold';
+     src: url('fonts/Bronova Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*'Bronova Regular*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'Bronova Regular';
+     src: url('fonts/Bronova Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+-------------------------------
+
+
+/*'GmarketSansLight'*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'GmarketSansLight';
+    src: url('fonts/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*'GmarketSansMedium'*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'GmarketSansMedium';
+    src: url('fonts/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*'GmarketSansBold'*/
+@font-face {
+    /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+    font-family: 'GmarketSansBold';
+     src: url('fonts/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
