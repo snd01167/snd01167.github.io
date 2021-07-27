@@ -1,0 +1,224 @@
+@charset "utf-8";
+body {
+    margin: 0;
+}
+
+/*서체*/
+@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin:0 7%;
+    padding:3.5% ;
+}
+.serif {
+    font-family: 'NotoSerifKR';
+    font-size: 13.5px;
+    line-height: 20px;
+}
+.sec01 .serif {
+    line-height: 28px;
+    font-size: 20px;
+}
+.box5 .serif {
+    line-height: 28px;
+}
+.strong {
+    font-weight: bold;
+}
+
+.light {
+    font-size: 12px;
+    font-weight: 100;
+}
+.green{
+    color: #40a005;
+}
+.size {
+    font-size: 30px;
+}
+
+
+/* 전체 꾸밈*/
+header { 
+    margin: 5%;
+}
+h2 {
+    text-align: center;
+    margin: 5%; 
+    font-size: 30px;
+    
+}
+h3 {
+    color: mediumslateblue;
+    font-size: 15px;
+}
+img {
+    width: 100%;
+    margin:1% 0;
+}
+.top {
+    padding-top: 5%;
+}
+
+/*sec01*/
+.sec01 .bottom {
+    padding-bottom: 5%;
+}
+
+.sec01 .image2 {
+    width: 65%;
+}
+.sec01 > .box{ 
+    width: 100%;
+    text-align: right;
+
+}
+.sec01 .image3 {
+    width: 83%;  
+    
+}
+
+/*sec02*/
+.sec02 {
+    background-color: #fffef4;
+    padding:5% 0;
+    
+}
+.sec02 .box2 {
+    display: flex;
+    flex-direction: column;
+}
+.sec02 img {
+    width: 83%;
+    margin: 1% auto;
+}
+
+/*sec03*/
+.sec03 {
+    padding:5% 0;
+}
+.box3  {
+    text-align: right;
+}
+.image6 {
+    width: 70%;
+}
+
+.image7 {
+    width: 80%;
+
+}
+/*sec04*/
+.sec04 {
+    background-color: #fffef4;
+    padding-bottom: 4%;
+    
+}
+.box4{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+.box4 img { 
+    width: 55%;
+    margin: 0;
+}
+.box4 p { 
+    width: 35%;
+    margin: 0;
+    padding:10% 5% ;
+}
+
+.box5 {
+    text-align: center;
+}
+.box5 .image9 { 
+    width:85%;
+}
+
+/*sec05*/
+.box6 {
+    text-align: right;
+    padding-top: 4%;
+
+}
+.box6 .image10 { 
+    width:70%;
+}
+.box7 {
+    text-align: center;
+}
+.box7 .image11 { 
+    width:85%;
+    margin-top: 0;
+}
+.box8 {
+    width:85%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+}
+.box8 .image12 { 
+    width:45%;
+}
+.box8> .box9 {
+    width: 55%;
+    text-align: right;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.box8> .box9>p { 
+    margin:0 10%
+    
+}
+
+.box10 {
+    width: 85%;
+    margin:0 auto;
+    position: relative;
+}
+
+.box10 > p  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: white;
+    margin:3.5%;
+ 
+    
+}
+
+/*sec06*/
+.sec06 > p  {
+    text-align: center;
+}
+/*푸터*/
+footer{
+    width: 85%;
+    margin:0 auto;
+    color: rgb(119, 119, 119);
+    font-size: 12px;
+    border-top: 1px solid rgb(230, 230, 230);
+    padding: 4% 0;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+
+}
+footer li {
+    padding:1% 0;
+}
+
