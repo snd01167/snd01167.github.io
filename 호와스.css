@@ -1,0 +1,23 @@
+@charset "utf-8";
+body {
+    margin: 5% auto;
+   background-image: url("http://snd01167.github.io/배경화면.jpg");
+}
+
+/* 공통 버튼 스타일 */
+.works {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.item {
+  position: relative;
+
+}
+
+.item img {
+  width: 100%;
+  display: block;
+}
