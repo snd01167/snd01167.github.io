@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {
+    margin: 0 auto;
+  
+
+}
+
+/* 공통 버튼 스타일 */
+.works {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item {
+  position: relative;
+
+}
+
+.item img {
+  width: 100%;
+  display: block;
+}
+
+.item .btn {
+  position: absolute;
+  bottom: 12%;
+  left: 13%;
+
+  padding: clamp(6px, 1vw, 14px) clamp(14px, 2vw, 28px);
+  font-size: clamp(12px, 1.2vw, 18px);
+  font-family: "Pretendard", sans-serif;
+
+  background: #94b63d;
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;   /* ⭐ 밑줄 제거 */
+  display: inline-block;
+}
+
+
+
+
+
+/* 전체 꾸밈*/
+
+
+
